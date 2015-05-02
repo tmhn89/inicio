@@ -13,15 +13,15 @@
 			
 			<ul>								
 				<!--start first-->
-				<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"  data-title="FRIENDS">
-					<img src="img/slide/img3.jpg"  alt="" data-lazyload="img/slide/img3.jpg" data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat">
+				<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on">
+					<img src="img/slide/slide1.jpg"  alt="" data-lazyload="img/slide/slide1.jpg" data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat">
 				</li>
 				<!--end first-->
 
 
 				<!--start second-->
-				<li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on"  data-title="LESSON">
-					<img src="img/slide/img8.jpg"  alt="" data-lazyload="img/slide/img8.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+				<li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
+					<img src="img/slide/slide2.jpg"  alt="" data-lazyload="img/slide/slide2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 				</li>
 				<!--end second-->
 
@@ -267,7 +267,7 @@
 			dottedOverlay:"none",
 			delay:16000,
 			startwidth:1170,
-			startheight:400,
+			startheight:500,
 			hideThumbs:200,
 			
 			thumbWidth:100,

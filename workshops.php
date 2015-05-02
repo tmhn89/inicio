@@ -39,7 +39,7 @@
 <section class="nicdark_section">
 
     <!--start nicdark_container-->
-    <div class="nicdark_container nicdark_clearfix">
+    <div class="nicdark_container nicdark_clearfix workshops">
 
 
         <div class="nicdark_space50"></div>
