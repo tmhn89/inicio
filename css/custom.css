@@ -1,5 +1,5 @@
 .my-workshops .grid.grid_2 {
-	margin-right: 70px;
+	margin-right: 60px;
 }
 
 a.more {
@@ -8,4 +8,38 @@ a.more {
 
 .workshops .nicdark_press.nicdark_btn {
 	vertical-align: bottom;
+}
+
+.my-workshops .done .nicdark_archive1 {
+	-webkit-filter: grayscale(100%);
+}
+
+.my-workshops .done {
+	position: relative;
+}
+
+.my-workshops .done .filter {
+	position: absolute;
+	z-index: 100;
+	top: 60px;
+	right: 0;
+	font-size: 50px;	
+}
+
+.clear {
+	clear: both;
+}
+
+.ui-datepicker-calendar td a {
+	font-family: Raleway;	
+}
+
+.date-workshop-phys {
+	color: #6fc191!important;
+	font-weight: bold;
+}
+
+.date-workshop-tech {
+	color: #e0b84e!important;
+	font-weight: bold;	
 }

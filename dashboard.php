@@ -43,17 +43,94 @@
         <div class="nicdark_space40"></div>        
 
         <div class="grid grid_8">
-            <div class="grid grid_12">
-                <h1 class="subtitle greydark">MY WORKSHOPS</h1>
-                <div class="nicdark_space20"></div>
-                <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
-                <div class="nicdark_space10"></div>
-            </div>
-            <div class="grid grid_12"></div>
+            <!-- start section -->
+            <h1 class="subtitle greydark">MY WORKSHOPS</h1>
+            <div class="nicdark_space20"></div>
+            <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
+            <div class="nicdark_space40"></div>
             <div class="my-workshops">
                 <?php include 'elements/workshop_user.html'; ?>
                 <?php include 'elements/workshop_user_add.html'; ?>
             </div>            
+            <!-- end section -->
+            <!--start section-->            
+            <div class="nicdark_space40"></div>
+            <h1 class="subtitle greydark">MY COMPANY TOURS</h1>
+            <div class="nicdark_space20"></div>
+            <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
+            <div class="nicdark_space40"></div>
+
+            <div class="grid grid_7">
+            
+                <section id="nicdark_parallax_text" class="nicdark_section nicdark_imgparallax nicdark_parallaxx_img-single-teacher-2">
+                    <div class="nicdark_filter blue">
+                        <!--start nicdark_container-->
+
+                            <div class="grid grid_7">
+                                <div class="nicdark_space20"></div>
+                                <h1 class="signature white center">Coming soon</h1>
+                                <div class="nicdark_space20"></div>
+                            </div>
+                        <!--end nicdark_container-->
+                    </div>
+                </section>
+            </div>                                
+            <!--end section-->
+            <!--start section-->            
+            <div class="nicdark_space40"></div>  
+            <h1 class="subtitle greydark clear">MY MESSAGES</h1>
+            <div class="nicdark_space20"></div>
+            <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
+            <div class="nicdark_space40"></div>
+
+            <div class="grid grid_4">
+                <div class="nicdark_textevidence nicdark_bg_green nicdark_radius nicdark_shadow">
+                    <div class="nicdark_margin20">
+                        <p class="white">Glad to hear that you will join the Artbot workshop on May 12. Don't hesitate to ask me questions if...</p>
+                    </div>
+                    <i class="icon-quote-right nicdark_iconbg right medium green"></i>
+                </div>
+                <div class="nicdark_focus">
+                    <div class="nicdark_triangle green nicdark_marginleft20"></div>
+                </div>
+                <div class="nicdark_space30"></div>
+                <div class="nicdark_focus nicdark_relative">
+                    <img alt="" class="nicdark_radius_circle nicdark_absolute" width="65" src="img/team/img9.jpg">
+
+                    <div class="nicdark_activity nicdark_marginleft85">
+                        <h5>JULIETTE LIGHT</h5>                       
+                        <div class="nicdark_space10"></div>
+                        <p>Sent 10 May 2015, 09:48</p>
+                        <div class="nicdark_space10"></div>
+                        <p><a href="#" class="nicdark_press nicdark_btn nicdark_bg_greendark white nicdark_radius nicdark_shadow small">Read full thread</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid_3">
+                <div class="nicdark_textevidence nicdark_bg_yellow nicdark_radius nicdark_shadow">
+                    <div class="nicdark_margin20">
+                        <p class="white">Hej, this is Olof from Makerspace. Congratulations, your SweepBot has won the second prize...</p>
+                    </div>
+                    <i class="icon-quote-right nicdark_iconbg right medium yellow"></i>
+                </div>
+                <div class="nicdark_focus">
+                    <div class="nicdark_triangle yellow nicdark_marginleft20"></div>
+                </div>
+                <div class="nicdark_space30"></div>
+                <div class="nicdark_focus nicdark_relative">
+                    <img alt="" class="nicdark_radius_circle nicdark_absolute" width="65" src="img/team/img7.jpg">
+
+                    <div class="nicdark_activity nicdark_marginleft85">
+                        <h5>Olof Svensson</h5>                       
+                        <div class="nicdark_space10"></div>
+                        <p>Sent 09 May 2015, 09:48</p>
+                        <div class="nicdark_space10"></div>
+                        <p><a href="#" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow small">Read full thread</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="nicdark_space40"></div>                        
+            <!--end section -->
         </div>
 
         <div class="grid grid_4">
@@ -64,48 +141,40 @@
                             <h4>Barrack Napoleon</h4>                        
                             <div class="nicdark_space20"></div>
                             <p>DOB: 10/10/2002<br/>Ronnaskolan</p>
+                            <div class="nicdark_space20"></div>                            
                         </div>
                 </div>
+                <a href="#nicdark_window_two" class="nicdark_mpopup_window nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small" style="position: absolute; bottom: 20px; right: 20px">Edit info</a>
+
+            </div>
+
+            <div id="nicdark_window_two" class="nicdark_bg_white nicdark_radius zoom-anim-dialog mfp-hide" style="width: 600px; margin: 0 auto;">
+                <div class="nicdark_margin20">
+                    <h1>EDIT INFORMATION</h1>
+                    <div class="nicdark_space20"></div>
+                    <p>Assume that you can edit your personal data here</p><br>
+                </p></div>
             </div>
 
             <div class="nicdark_space40"></div>
 
             <h3 class="subtitle greydark">MY INTERESTS</h3>
             <div class="nicdark_space20"></div>
-            <div class="nicdark_divider left small"><span class="nicdark_bg_yellow nicdark_radius"></span></div>
+            <div class="nicdark_divider left small"><span class="nicdark_bg_blue nicdark_radius"></span></div>
             <div class="nicdark_space20"></div>
             
-            <div class="nicdark_progressbar nicdark_bg_grey nicdark_radius nicdark_shadow">
-                <h5 class="nicdark_progressbar_title nicdark_bg_yellow nicdark_bg_yellowdark_hover nicdark_radius nicdark_shadow fade-left animate1 animated fadeInLeft" style="width:100%">
-                    <span class="white nicdark_size_big"><i class="icon-code"></i>&nbsp;&nbsp;&nbsp;TECHNOLOGY</span>
-                </h5>
-            </div>
+            <?php include 'elements/my_interest.html'; ?>
 
+            <div class="nicdark_space40"></div>
+
+            <h3 class="subtitle greydark">MY CALENDAR</h3>
             <div class="nicdark_space20"></div>
-
-            <div class="nicdark_progressbar nicdark_bg_grey nicdark_radius nicdark_shadow">
-                <h5 class="nicdark_progressbar_title nicdark_bg_blue nicdark_bg_bluedark_hover nicdark_radius nicdark_shadow fade-left animate2 animated fadeInLeft" style="width:80%">
-                    <span class="white nicdark_size_big"><i class="icon-music"></i>&nbsp;&nbsp;&nbsp;MUSIC</span>
-                </h5>
-            </div>
-
+            <div class="nicdark_divider left small"><span class="nicdark_bg_blue nicdark_radius"></span></div>
             <div class="nicdark_space20"></div>
-
-            <div class="nicdark_progressbar nicdark_bg_grey nicdark_radius nicdark_shadow">
-                <h5 class="nicdark_progressbar_title nicdark_bg_green nicdark_bg_greendark_hover nicdark_radius nicdark_shadow fade-left animate3 animated fadeInLeft" style="width:80%">
-                    <span class="white nicdark_size_big"><i class="icon-magnet"></i>&nbsp;&nbsp;&nbsp;PHYSICS</span>
-                </h5>
-            </div>
             
-            <div class="nicdark_space20"></div>
+            <div class="my-calendar"></div>
 
-            <div class="nicdark_progressbar nicdark_bg_grey nicdark_radius nicdark_shadow">
-                <h5 class="nicdark_progressbar_title nicdark_bg_orange nicdark_radius nicdark_bg_orangedark_hover nicdark_shadow fade-left animate4 animated fadeInLeft" style="width:50%">
-                    <span class="white nicdark_size_big"><i class="icon-superscript"></i>&nbsp;&nbsp;&nbsp;MATHEMATICS</span>
-                </h5>
-            </div>
-
-            <div class="nicdark_space40"></div>        
+            <div class="nicdark_space40"></div>            
 
         </div>
         
@@ -257,6 +326,11 @@
 		  }
 		});
 		//END COUNTDOWN GRID SECTION
+
+        $('.my-calendar').datepicker({inline: true});
+
+        $('.ui-datepicker-calendar a.ui-state-default:contains("12")').addClass('date-workshop-phys').attr('title', 'Workshop: Artbots making');
+        $('.ui-datepicker-calendar a.ui-state-default:contains("18")').addClass('date-workshop-tech').attr('title', 'Workshop: Kids Hack Day');;
 
 	});
 </script>

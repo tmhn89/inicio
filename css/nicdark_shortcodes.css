@@ -669,16 +669,16 @@ opacity: 0.8;
 .ui-datepicker-next:before{ content: '\ea75' !important; font-family: 'fontello'; color: #fff; cursor: pointer; }
 /*days*/
 .ui-datepicker-calendar{ float: left; width: 100%; border-collapse: collapse; text-align: center; border-radius: 5px; box-shadow: 0px 4px 0px 0px #f1f1f1; background-color: #f9f9f9; }
-.ui-datepicker-calendar thead{ background-color: #6fc191; color: #fff; font-size: 13px; line-height: 13px; font-family: 'Montserrat', sans-serif; font-weight: normal; text-transform: uppercase; }
+.ui-datepicker-calendar thead{ background-color: #74cee4; color: #fff; font-size: 13px; line-height: 13px; font-family: 'Montserrat', sans-serif; font-weight: normal; text-transform: uppercase; }
 .ui-datepicker-calendar tbody{  }
 .ui-datepicker-calendar th{ font-weight: normal; padding: 15px 10px; }
 .ui-datepicker-calendar td{ font-weight: normal; box-shadow:inset -1px 1px 0px 0px #f1f1f1}
 .ui-datepicker-calendar td a{ font-size: 13px; padding: 10px 10px; line-height: 15px; color: #b7b7b7; display: block;}
 /*today*/
-.ui-datepicker-today a { color: #fff !important; background-color: #6fc191;}
+.ui-datepicker-today a { color: #fff !important; background-color: #74cee4;}
 .ui-datepicker-other-month {  }
 /*hover*/
-.ui-datepicker-calendar .ui-state-hover{ color: #fff !important; background-color: #6fc191; }
+.ui-datepicker-calendar .ui-state-hover{ color: #fff !important; background-color: #74cee4; }
 /*END NICDARKCALENDAR*/
 
 

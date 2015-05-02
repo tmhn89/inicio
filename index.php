@@ -188,7 +188,7 @@
         <div class="grid grid_12">
             <h1 class="subtitle greydark">OUR TEAM</h1>
             <div class="nicdark_space20"></div>            
-            <div class="nicdark_divider left big"><span class="nicdark_bg_yellow nicdark_radius"></span></div>
+            <div class="nicdark_divider left big"><span class="nicdark_bg_violet nicdark_radius"></span></div>
             <div class="nicdark_space10"></div>
         </div>
 
