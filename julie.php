@@ -79,19 +79,19 @@
             
             <ul class="nicdark_list border">    
                 <li class="nicdark_border_grey">
-                    <p>Artbot making <a href="#" class="nicdark_btn nicdark_bg_blue extrasmall nicdark_radius nicdark_shadow white right">May 8</a></p> 
+                    <p>Artbot making <a href="#" class="nicdark_btn nicdark_bg_green extrasmall nicdark_radius nicdark_shadow white right">May 8</a></p> 
                     <div class="nicdark_space15"></div>
                 </li>
 
                 <li class="nicdark_border_grey">
                     <div class="nicdark_space15"></div>
-                    <p>How computer works <a href="#" class="nicdark_btn nicdark_bg_violet extrasmall nicdark_radius nicdark_shadow white right">June 30</a></p>
+                    <p>How computer works <a href="#" class="nicdark_btn nicdark_bg_yellow extrasmall nicdark_radius nicdark_shadow white right">June 30</a></p>
                     <div class="nicdark_space15"></div>
                 </li>
                     
                 <li class="nicdark_border_grey">
                     <div class="nicdark_space15"></div>
-                    <p>Machines in the kitchen <a href="#" class="nicdark_btn nicdark_bg_blue extrasmall nicdark_radius nicdark_shadow white right">July 30</a></p>
+                    <p>Machines in the kitchen <a href="#" class="nicdark_btn nicdark_bg_green extrasmall nicdark_radius nicdark_shadow white right">July 30</a></p>
                     <div class="nicdark_space15"></div>
                 </li>
             </ul>

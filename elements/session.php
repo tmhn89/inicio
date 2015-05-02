@@ -12,4 +12,8 @@
     } else {
         include 'elements/header.html';   
     }
+
+    if(isset($_GET['join'])) {
+        $_SESSION['join'] = $_GET['join'];
+    }    
 ?>

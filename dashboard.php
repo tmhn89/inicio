@@ -18,7 +18,7 @@
                 <div class="nicdark_space100"></div>
                 <h1 class="white subtitle">Barrack Napoleon</h1>
                 <div class="nicdark_space10"></div>
-                <h3 class="subtitle white">Ronnaskolan</h3>
+                <h3 class="subtitle white">Arandomskolan</h3>
                 <div class="nicdark_space20"></div>
                 <div class="nicdark_divider left big"><span class="nicdark_bg_white nicdark_radius"></span></div>
                 <div class="nicdark_space40"></div>
@@ -49,13 +49,17 @@
             <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
             <div class="nicdark_space40"></div>
             <div class="my-workshops">
-                <?php include 'elements/workshop_user.html'; ?>
+                <?php include 'elements/workshop_user.html'; ?>                
+                <?php 
+                    include isset($_SESSION['join']) ? 'elements/workshop_user_single.html' : 'elements/workshop_user_add.html'; 
+                ?>
+                <?php include 'elements/workshop_user_add.html'; ?>
                 <?php include 'elements/workshop_user_add.html'; ?>
             </div>            
             <!-- end section -->
             <!--start section-->            
             <div class="nicdark_space40"></div>
-            <h1 class="subtitle greydark">MY COMPANY TOURS</h1>
+            <h1 class="subtitle greydark clear">MY COMPANY TOURS</h1>
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
             <div class="nicdark_space40"></div>
@@ -140,7 +144,7 @@
                         <div class="nicdark_activity nicdark_marginleft100 nicdark_disable_marginleft_ipadpotr">
                             <h4>Barrack Napoleon</h4>                        
                             <div class="nicdark_space20"></div>
-                            <p>DOB: 10/10/2002<br/>Ronnaskolan</p>
+                            <p>DOB: 10/10/2002<br/>Arandomskolan</p>
                             <div class="nicdark_space20"></div>                            
                         </div>
                 </div>
@@ -330,7 +334,19 @@
         $('.my-calendar').datepicker({inline: true});
 
         $('.ui-datepicker-calendar a.ui-state-default:contains("12")').addClass('date-workshop-phys').attr('title', 'Workshop: Artbots making');
-        $('.ui-datepicker-calendar a.ui-state-default:contains("18")').addClass('date-workshop-tech').attr('title', 'Workshop: Kids Hack Day');;
+        $('.ui-datepicker-calendar a.ui-state-default:contains("18")').addClass('date-workshop-tech').attr('title', 'Workshop: Kids Hack Day');
+
+        $('.ui-datepicker-calendar a.ui-state-default:contains("13")').addClass('date-event').attr('title', 'Event: Do this at that place');
+        $('.ui-datepicker-calendar a.ui-state-default:contains("25")').addClass('date-event').attr('title', 'Event: Do another thing at another place');
+        $('.ui-datepicker-calendar a.ui-state-default:contains("31")').addClass('date-event').attr('title', 'Event: Do this at that place the second time');
+
+        <?php 
+            if(isset($_SESSION['join'])) {
+        ?>
+            $('.ui-datepicker-calendar a.ui-state-default:contains("30")').addClass('date-workshop-tech').attr('title', 'Workshop: Kids Hack Day');
+        <?php        
+            }
+        ?>
 
 	});
 </script>

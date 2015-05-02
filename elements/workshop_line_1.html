@@ -15,6 +15,8 @@
             <h5 class="white"><i class="icon-pin-outline"></i> Kista Bibliotek</h5>
             <div class="nicdark_space10"></div>
             <h5 class="white"><i class="icon-clock-1"></i> 9:00 To 14:00</h5>
+            <div class="nicdark_space10"></div>
+            <h5 class="white"><i class="icon-tags"></i> ICT</h5>
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left small"><span class="nicdark_bg_white nicdark_radius"></span></div>
             <div class="nicdark_space20"></div>
@@ -46,6 +48,8 @@
             <h5 class="white"><i class="icon-pin-outline"></i> Ronnaskolan, Södertalje</h5>
             <div class="nicdark_space10"></div>
             <h5 class="white"><i class="icon-clock-1"></i> 9:00 To 14:00</h5>
+            <div class="nicdark_space10"></div>
+            <h5 class="white"><i class="icon-tags"></i> Physics</h5>
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left small"><span class="nicdark_bg_white nicdark_radius"></span></div>
             <div class="nicdark_space20"></div>
@@ -63,7 +67,7 @@
 <div class="grid grid_3">
             
     <!--archive1-->
-    <div class="nicdark_archive1 nicdark_bg_blue nicdark_radius nicdark_shadow">
+    <div class="nicdark_archive1 nicdark_bg_yellow nicdark_radius nicdark_shadow">
 
         <a href="#" class="nicdark_btn nicdark_bg_greydark white medium nicdark_radius nicdark_absolute_left">18<br/><small>May</small></a>
 
@@ -77,12 +81,14 @@
             <h5 class="white"><i class="icon-pin-outline"></i> Jerry Tits Experiments</h5>
             <div class="nicdark_space10"></div>
             <h5 class="white"><i class="icon-clock-1"></i> 9:00 To 14:00</h5>
+            <div class="nicdark_space10"></div>
+            <h5 class="white"><i class="icon-tags"></i> ICT</h5>
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left small"><span class="nicdark_bg_white nicdark_radius"></span></div>
             <div class="nicdark_space20"></div>
             <p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt rutrum.</p>
             <div class="nicdark_space20"></div>
-            <a href="artbot" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow medium">CHECK IT</a>
+            <a href="artbot" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow medium">CHECK IT</a>
             <a href="" class="nicdark_btn white nicdark_radius nicdark_shadow small"><i class="icon-ok"></i>JOINED</a>            
         </div>
 
@@ -94,7 +100,7 @@
 <div class="grid grid_3">
             
     <!--archive1-->
-    <div class="nicdark_archive1 nicdark_bg_orange nicdark_radius nicdark_shadow">
+    <div class="nicdark_archive1 nicdark_bg_yellow nicdark_radius nicdark_shadow">
 
         <a href="#" class="nicdark_btn nicdark_bg_greydark white medium nicdark_radius nicdark_absolute_left">30<br/><small>May</small></a>
 
@@ -108,16 +114,34 @@
             <h5 class="white"><i class="icon-pin-outline"></i> Stockholm Stadion</h5>
             <div class="nicdark_space10"></div>
             <h5 class="white"><i class="icon-clock-1"></i> 9:00 To 14:00</h5>
+            <div class="nicdark_space10"></div>
+            <h5 class="white"><i class="icon-tags"></i> ICT</h5>
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left small"><span class="nicdark_bg_white nicdark_radius"></span></div>
             <div class="nicdark_space20"></div>
             <p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt rutrum.</p>
             <div class="nicdark_space20"></div>
-            <a href="artbot" class="nicdark_press nicdark_btn nicdark_bg_orangedark white nicdark_radius nicdark_shadow medium">CHECK IT</a>
-            <a href="artbot" class="nicdark_press nicdark_btn nicdark_bg_orangedark white nicdark_radius nicdark_shadow medium">JOIN IT</a>
+            <a href="artbot" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow medium">CHECK IT</a>
+            <a href="#" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow medium" onclick="javascript:join();">JOIN IT</a>
         </div>
 
     </div>
     <!--archive1-->
 
 </div>
+
+<script type="text/javascript">
+    function join() {
+        window.location = 'dashboard?join=' + makeid(); 
+    }
+
+    function makeid() {
+        var text = "";
+        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+        for( var i=0; i < 16; i++ )
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+        return text;
+    }
+</script>

@@ -38,8 +38,20 @@ a.more {
 	color: #6fc191!important;
 	font-weight: bold;
 }
+.date-workshop-phys:hover {
+	background-color: #6fc191;
+}
 
 .date-workshop-tech {
 	color: #e0b84e!important;
+	font-weight: bold;	
+}
+.date-workshop-tech:hover {
+	background-color: #e0b84e;
+}
+
+
+.date-event {
+	color: #74cee4!important;
 	font-weight: bold;	
 }

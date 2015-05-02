@@ -40,17 +40,6 @@
     <div class="nicdark_container nicdark_clearfix">
 
 
-        <div class="nicdark_space50"></div>
-
-        <div class="grid grid_12">
-            <h1 class="subtitle greydark">OUR TEAM</h1>
-            <div class="nicdark_space20"></div>            
-            <div class="nicdark_divider left big"><span class="nicdark_bg_yellow nicdark_radius"></span></div>
-            <div class="nicdark_space10"></div>
-        </div>
-
-        <?php include 'elements/team.html'; ?>
-
     </div>
     <!--end nicdark_container-->
             
