@@ -34,75 +34,6 @@
 </section>
 <!--end section-->
 <!--start section-->
-
-<section class="nicdark_section">
-
-    <!--start nicdark_container-->
-    <div class="nicdark_container nicdark_clearfix">
-
-        <div class="nicdark_space40"></div>
-
-        <div class="grid grid_12">
-            <h1 class="subtitle greydark">ABOUT US</h1>
-            <div class="nicdark_space20"></div>
-            <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
-            <div class="nicdark_space10"></div>
-        </div>
-        <div class="grid grid_12"></div>
-
-        <div class="grid grid_4">
-
-            <div class="nicdark_archive1 nicdark_bg_blue nicdark_bg_bluedark_hover nicdark_transition nicdark_radius nicdark_shadow">
-                <div class="nicdark_margin20 nicdark_relative">  
-                    <a href="#" class="nicdark_displaynone_ipadpotr nicdark_btn_icon nicdark_bg_bluedark medium nicdark_radius_circle white nicdark_absolute nicdark_shadow"><i>1</i></a>
-        
-                    <div class="nicdark_activity nicdark_marginleft70 nicdark_disable_marginleft_ipadpotr">
-                        <h4 class="white">FOR STUDENTS</h4>                        
-                        <div class="nicdark_space20"></div>
-                        <p class="white">We inspire students to uncover their talents and preferences by providing them with engaging hands-on and real-life experiences that will enable them to make sound decisions for their high school education and their future.
-
-                    </div>
-                </div>
-            </div>
-    
-        </div>
-
-
-        <div class="grid grid_4">
-            <div class="nicdark_archive1 nicdark_bg_green nicdark_bg_greendark_hover nicdark_transition nicdark_radius nicdark_shadow">
-                <div class="nicdark_margin20 nicdark_relative">  
-                    <a href="#" class="nicdark_displaynone_ipadpotr nicdark_btn_icon nicdark_bg_greendark medium nicdark_radius_circle white nicdark_absolute nicdark_shadow"><i>2</i></a>
-        
-                    <div class="nicdark_activity nicdark_marginleft70 nicdark_disable_marginleft_ipadpotr">
-                        <h4 class="white">FOR SCHOOLS</h4>                        
-                        <div class="nicdark_space20"></div>
-                        <p class="white">We team up with educators to support students with their decision-making towards high school, we provide the opportunities for everyone to find their passion and develop their talents as we introduce the school itself to a different way of learning.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="grid grid_4">
-            <div class="nicdark_archive1 nicdark_bg_yellow nicdark_bg_yellowdark_hover nicdark_transition nicdark_radius nicdark_shadow">
-                <div class="nicdark_margin20 nicdark_relative">  
-                    <a href="#" class="nicdark_displaynone_ipadpotr nicdark_btn_icon nicdark_bg_yellowdark medium nicdark_radius_circle white nicdark_absolute nicdark_shadow"><i>3</i></a>
-        
-                    <div class="nicdark_activity nicdark_marginleft70 nicdark_disable_marginleft_ipadpotr">
-                        <h4 class="white">FOR BUSINESSES</h4>                        
-                        <div class="nicdark_space20"></div>
-                        <p class="white">We provide the industry with the opportunity to partner with us and take part in the educational project that inspires students to find and pursue their passion; together, we will impact the lives of young talents and their communities. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!--end nicdark_container-->
-     
-</section>
-<!--end section-->
-<!--start section-->
 <section class="nicdark_section">
 
     <!--start nicdark_container-->
@@ -141,76 +72,8 @@
         </div>
         <div class="grid grid_12"></div>
 
+        <?php include 'elements/contact.html'; ?>
 
-
-        <div class="grid grid_4">
-
-            <div class="nicdark_archive1 nicdark_bg_grey nicdark_radius nicdark_shadow">
-                <div class="nicdark_margin20 nicdark_relative">
-                        <a href="#" class="nicdark_displaynone_ipadpotr nicdark_btn_icon nicdark_bg_yellow extrabig nicdark_radius_circle white nicdark_absolute nicdark_shadow"><i class="icon-location-outline nicdark_rotate"></i></a>
-                        <div class="nicdark_activity nicdark_marginleft100 nicdark_disable_marginleft_ipadpotr">
-                            <h4>OUR OFFICE</h4>                        
-                            <div class="nicdark_space20"></div>
-                            <p>Somethingvägen 99, 543 21<br/>Stockholm, Sweden</p>
-                        </div>
-                </div>
-            </div>
-
-            <div class="nicdark_space20"></div>
-
-
-            <div class="nicdark_archive1 nicdark_bg_grey nicdark_radius nicdark_shadow">
-                <div class="nicdark_margin20 nicdark_relative">
-                        <a href="#" class="nicdark_displaynone_ipadpotr nicdark_btn_icon nicdark_bg_orange extrabig nicdark_radius_circle white nicdark_absolute nicdark_shadow"><i class="icon-phone nicdark_rotate"></i></a>
-                        <div class="nicdark_activity nicdark_marginleft100 nicdark_disable_marginleft_ipadpotr">
-                            <h4>CALL US</h4>
-                            <div class="nicdark_space20"></div>
-                            <p>08 1111 1111<br/>or 078 888 8888</p>
-                        </div>
-                </div>
-            </div>
-
-            <div class="nicdark_space20"></div>
-
-
-            <div class="nicdark_archive1 nicdark_bg_greydark nicdark_radius nicdark_shadow">
-                <div class="nicdark_margin20 nicdark_relative">
-                        <a href="#" class="nicdark_displaynone_ipadpotr nicdark_btn_icon nicdark_bg_red extrabig nicdark_radius_circle white nicdark_absolute nicdark_shadow"><i class="icon-paper-plane-empty nicdark_rotate"></i></a>
-                        <div class="nicdark_activity nicdark_marginleft100 nicdark_disable_marginleft_ipadpotr">
-                            <h4 class="white">M@IL US</h4>                        
-                            <div class="nicdark_space20"></div>
-                            <p class="white">info@inicio.edu <br/>register@inicio.edu</p>
-                        </div>
-                </div>
-            </div>
-
-        
-        </div>
-
-
-		<div class="grid grid_8">
-            
-           <div class="nicdark_archive1 nicdark_bg_grey nicdark_radius nicdark_shadow">
-                <div class="nicdark_textevidence nicdark_bg_orange nicdark_radius_top">
-                    <h4 class="white nicdark_margin20">CONTACT US</h4>
-                    <i class="icon-mail nicdark_iconbg right medium orange"></i>
-                </div>
-                <div class="nicdark_margin20">
-                    <input class="nicdark_bg_grey2 nicdark_radius nicdark_shadow grey small subtitle" type="text" value="" placeholder="NAME">
-                    <div class="nicdark_space20"></div>
-                    <input class="nicdark_bg_grey2 nicdark_radius nicdark_shadow grey small subtitle" type="text" value="" placeholder="EMAIL">
-                    <div class="nicdark_space20"></div>
-                    <textarea class="nicdark_bg_grey2 nicdark_radius nicdark_shadow grey small subtitle" placeholder="MESSAGE" rows="7"></textarea>
-                    <div class="nicdark_space20"></div>
-                    <!--<input class="nicdark_btn nicdark_bg_orange medium nicdark_shadow nicdark_radius white" type="submit" value="SEND">-->
-                    <a href="submit-message.html" class="nicdark_mpopup_ajax nicdark_btn nicdark_bg_orange medium nicdark_shadow nicdark_radius white nicdark_press">SEND</a>
-                </div>
-            </div>
-
-        </div>
-
-
-       
 
         <div class="nicdark_space50"></div>
 

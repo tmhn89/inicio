@@ -33,6 +33,30 @@
 </section>
 <!--end section-->
 <!--start section-->
+
+<section class="nicdark_section">
+
+    <!--start nicdark_container-->
+    <div class="nicdark_container nicdark_clearfix">
+
+        <div class="nicdark_space40"></div>
+
+        <div class="grid grid_12">
+            <h1 class="subtitle greydark">ABOUT US</h1>
+            <div class="nicdark_space20"></div>
+            <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
+            <div class="nicdark_space10"></div>
+        </div>
+        <div class="grid grid_12"></div>
+        
+        <?php include 'elements/about.html'; ?>
+
+    </div>
+    <!--end nicdark_container-->
+     
+</section>
+<!--end section-->
+<!--start section-->
 <section class="nicdark_section">
 
     <!--start nicdark_container-->
@@ -145,46 +169,14 @@
 
         <div class="grid grid_4 nicdark_relative">            
         
-        </div>
-
-        <div class="nicdark_space50"></div>
+        </div>        
 
     </div>
     <!--end nicdark_container-->
             
 </section>
-<!--end section--><!--start section-->
-<section id="nicdark_parallax_countdown" class="nicdark_section nicdark_imgparallax nicdark_parallaxx_img-teachers-1">
-
-    <div class="nicdark_filter greydark">
-
-        <!--start nicdark_container-->
-        <div class="nicdark_container nicdark_clearfix">
-
-            <div class="nicdark_space40"></div>
-            <div class="nicdark_space50"></div>
-
-            <div class="grid grid_12">
-                <h1 class="white center subtitle">NEXT WORKSHOP: Artbots making at Ronnaskolan</h1>
-                <div class="nicdark_space10"></div>
-                <h3 class="subtitle center white">ARE YOU READY ?</h3>
-                <div class="nicdark_space20"></div>
-                <div class="nicdark_divider center big"><span class="nicdark_bg_white nicdark_radius"></span></div> 
-                <div class="nicdark_space20"></div>    
-            </div>
-
-            <div class="nicdark_countdown"></div>   
-
-            <div class="nicdark_space40"></div>
-            <div class="nicdark_space50"></div>
-
-        </div>
-        <!--end nicdark_container-->
-
-    </div>
-            
-</section>
-<!--end section--><!--start section-->
+<!--end section-->
+<!--start section-->
 <section class="nicdark_section">
 
     <!--start nicdark_container-->
@@ -193,47 +185,46 @@
 
         <div class="nicdark_space50"></div>
 
-
         <div class="grid grid_12">
-            <h1 class="subtitle greydark">UPCOMING WORKSHOPS</h1>
-            <div class="nicdark_space20"></div>
-            <div class="nicdark_divider left big"><span class="nicdark_bg_green nicdark_radius"></span></div>
+            <h1 class="subtitle greydark">OUR TEAM</h1>
+            <div class="nicdark_space20"></div>            
+            <div class="nicdark_divider left big"><span class="nicdark_bg_yellow nicdark_radius"></span></div>
             <div class="nicdark_space10"></div>
         </div>
 
-        <?php include 'elements/workshop_line_1.html';?>
-        
-        <div class="nicdark_space50"></div>
+        <?php include 'elements/team.html'; ?>
 
-   </div>
-   <!--end nicdark_container-->
+    </div>
+    <!--end nicdark_container-->
             
 </section>
-<!--end section--><!--start section-->
-<div id="nicdark_parallax_2_btns" class="nicdark_section nicdark_imgparallax nicdark_parallax_img2">
-
+<!--end section-->
+<!--start section-->
+<section class="nicdark_section">
 
     <!--start nicdark_container-->
     <div class="nicdark_container nicdark_clearfix">
 
         <div class="nicdark_space40"></div>
+
+        <div class="grid grid_12">
+            <h1 class="subtitle greydark">CONTACT US</h1>
+            <div class="nicdark_space20"></div>
+            <div class="nicdark_divider left big"><span class="nicdark_bg_orange nicdark_radius"></span></div>
+            <div class="nicdark_space10"></div>
+        </div>
+        <div class="grid grid_12"></div>
+
+        <?php include 'elements/contact.html'; ?>
+
+
         <div class="nicdark_space50"></div>
 
-        <div class="grid grid_6 nicdark_aligncenter_iphoneland nicdark_aligncenter_iphonepotr">
-            <a href="events.php" class="nicdark_disable_floatright_iphoneland nicdark_disable_floatright_iphonepotr nicdark_btn nicdark_bg_blue medium right nicdark_shadow nicdark_radius white nicdark_press"><i class="icon-th-outline"></i>&nbsp;&nbsp;&nbsp;See all Events</a>
-        </div>
-        <div class="grid grid_6 nicdark_aligncenter_iphoneland nicdark_aligncenter_iphonepotr">
-            <a href="workshops.php" class=" nicdark_btn nicdark_bg_blue medium nicdark_shadow nicdark_radius white nicdark_press"><i class="icon-child"></i>&nbsp;&nbsp;&nbsp;See all Workshops</a>
-        </div>
-
-        <div class="nicdark_space40"></div>
-        <div class="nicdark_space50"></div>
 
     </div>
     <!--end nicdark_container-->
-
             
-</div>
+</section>
 <!--end section-->
 <!--end-->
 <?php include 'elements/footer.html';?>
@@ -276,7 +267,7 @@
 			dottedOverlay:"none",
 			delay:16000,
 			startwidth:1170,
-			startheight:650,
+			startheight:400,
 			hideThumbs:200,
 			
 			thumbWidth:100,
