@@ -1,3 +1,9 @@
+body {
+	font-family: Raleway;
+	font-size: 15px;
+	line-height: 22px;
+	color: #a4a4a4;
+}
 .my-workshops .grid.grid_2 {
 	margin-right: 60px;
 }
@@ -54,4 +60,8 @@ a.more {
 .date-event {
 	color: #74cee4!important;
 	font-weight: bold;	
+}
+
+.programs p {
+	margin-bottom: 10px;
 }

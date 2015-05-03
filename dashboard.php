@@ -1,9 +1,16 @@
+<?php include 'elements/session.php'; ?>
 <?php include 'elements/head.html'; ?>
 <body id="start_nicdark_framework">
 
 <div class="nicdark_site">
     <div class="nicdark_site_fullwidth nicdark_clearfix"><div class="nicdark_overlay"></div>
-    <?php include 'elements/session.php'; ?>
+    <?php
+        if(isset($_SESSION['login'])) {
+            include 'elements/header_user.html';   
+        } else {
+            include 'elements/header.html';   
+        }
+    ?>
 <!--start-->
 <!--start section-->
 <section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax nicdark_parallaxx_img5">
@@ -104,7 +111,7 @@
                     <div class="nicdark_activity nicdark_marginleft85">
                         <h5>JULIETTE LIGHT</h5>                       
                         <div class="nicdark_space10"></div>
-                        <p>Sent 10 May 2015, 09:48</p>
+                        <p>Sent 03 May 2015, 19:22</p>
                         <div class="nicdark_space10"></div>
                         <p><a href="#" class="nicdark_press nicdark_btn nicdark_bg_greendark white nicdark_radius nicdark_shadow small">Read full thread</a></p>
                     </div>
@@ -127,7 +134,7 @@
                     <div class="nicdark_activity nicdark_marginleft85">
                         <h5>Olof Svensson</h5>                       
                         <div class="nicdark_space10"></div>
-                        <p>Sent 09 May 2015, 09:48</p>
+                        <p>Sent 02 May 2015, 09:48</p>
                         <div class="nicdark_space10"></div>
                         <p><a href="#" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow small">Read full thread</a></p>
                     </div>
@@ -343,7 +350,7 @@
         <?php 
             if(isset($_SESSION['join'])) {
         ?>
-            $('.ui-datepicker-calendar a.ui-state-default:contains("30")').addClass('date-workshop-tech').attr('title', 'Workshop: Kids Hack Day');
+            $('.ui-datepicker-calendar a.ui-state-default:contains("30")').addClass('date-workshop-tech').attr('title', 'Workshop: Programming is fun');
         <?php        
             }
         ?>

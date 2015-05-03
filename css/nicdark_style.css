@@ -171,7 +171,9 @@ select.big { font-size: 17px; padding: 15px 10%; }
 .nicdark_parallaxx_img-single-teacher-2 { background: url(../img/parallax/img-single-teacher-2.jpg) 50% 0 fixed; background-size:cover; }
 
 .nicdark_parallaxx_img-excursions { background: url(../img/parallax/img-excursions.jpg) 50% 0 fixed; background-size:cover; }
+.nicdark_parallaxx_img-highschool { background: url(../img/parallax/img3.jpg) 50% 0 fixed; background-size:cover; }
 .nicdark_parallaxx_img-artbot { background: url(../img/parallax/img-artbot.jpg) 50% -200px fixed; background-size:cover; }
+.nicdark_parallaxx_img-comp { background: url(../img/parallax/img-comp.jpg) 50% -200px fixed; background-size:cover; }
 .nicdark_parallaxx_img-single-excursion { background: url(../img/parallax/img-single-excursion.jpg) 50% 0 fixed; background-size:cover; }
 
 .nicdark_parallaxx_img-courses { background: url(../img/parallax/img-courses.jpg) 50% 0 fixed; background-size:cover; }

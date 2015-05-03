@@ -1,10 +1,17 @@
+<?php include 'elements/session.php'; ?>
 <?php include 'elements/head.html'; ?> 
 <body id="start_nicdark_framework">
 
 <div class="nicdark_site">
     <div class="nicdark_site_fullwidth nicdark_clearfix"><div class="nicdark_overlay"></div>
-
-    <?php include 'elements/session.php'; ?>
+    
+    <?php
+        if(isset($_SESSION['login'])) {
+            include 'elements/header_user.html';   
+        } else {
+            include 'elements/header.html';   
+        }
+    ?>
 <!--start-->
 <!--start section-->
 <section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax nicdark_parallaxx_img-excursions">

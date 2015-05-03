@@ -1,14 +1,20 @@
+<?php include 'elements/session.php'; ?>
 <?php include 'elements/head.html'; ?>
 <body id="start_nicdark_framework">
 
 <div class="nicdark_site">
     <div class="nicdark_site_fullwidth nicdark_clearfix"><div class="nicdark_overlay"></div>
-
-    <?php include 'elements/session.php'; ?>
+    <?php
+        if(isset($_SESSION['login'])) {
+            include 'elements/header_user.html';   
+        } else {
+            include 'elements/header.html';   
+        }
+    ?>
 
 <!--start-->
 <!--start section-->
-<section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax nicdark_parallaxx_img-artbot">
+<section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax nicdark_parallaxx_img-comp">
 
     <div class="nicdark_filter greydark">
 
@@ -18,9 +24,9 @@
             <div class="grid grid_12">
                 <div class="nicdark_space100"></div>
                 <div class="nicdark_space100"></div>
-                <h1 class="white subtitle">ARTBOT MAKING AT RONNASKOLAN</h1>
+                <h1 class="white subtitle">PROGRAMMING IS FUN</h1>
                 <div class="nicdark_space10"></div>
-                <h3 class="subtitle white">CREATE SIMPLE ROBOT WHICH CAN DRAW</h3>
+                <h3 class="subtitle white">YOUR FIRST STEP INTO THE ICT WORLD</h3>
                 <div class="nicdark_space20"></div>
                 <div class="nicdark_divider left big"><span class="nicdark_bg_white nicdark_radius"></span></div>
                 <div class="nicdark_space40"></div>
@@ -48,7 +54,18 @@
             
             <p><span class="white nicdark_dropcap nicdark_bg_yellow nicdark_radius nicdark_shadow">L</span>orem commodo lectus at sollicitudin elementum. Sed dolor turpis, condimentum sit amet maximus sit amet, rhoncus non turpis. Aenean convallis ac lorem et sodales. Sed dictum vel orci nec rhoncus. Donec quis porttitor arcu. Nulla ut justo quis augue commodo mattis nec vel ante.<br/><br/>Lorem commodo lectus at sollicitudin elementum. Sed dolor turpis, condimentum sit amet maximus sit amet, rhoncus non turpis. Aenean convallis ac lorem et sodales. Sed dictum vel orci nec rhoncus. Donec quis porttitor arcu. Nulla ut justo quis augue commodo mattis nec vel ante.<br/><br/>Lorem commodo lectus at sollicitudin elementum. Sed dolor turpis, condimentum sit amet maximus sit amet, rhoncus non turpis. Aenean convallis ac lorem et sodales. Sed dictum vel orci nec rhoncus. Donec quis porttitor arcu. Nulla ut justo quis augue commodo mattis nec vel ante.</p>        
         
-            <div class="nicdark_space50"></div>
+            <div class="nicdark_space40"></div>
+            <?php if (isset($_SESSION['join'])) { ?>
+                <p style="text-align: center" class="yellow">
+                    <b><i class="icon-ok"></i>JOINED</b>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow medium" onclick="javascript:unregister();">UNREGISTER ?</a>                
+                </p>
+            <?php } else { ?>
+                <p style="text-align: center">
+                    <a href="#" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow medium" onclick="javascript:join();">JOIN IT</a>
+                </p>                
+            <?php } ?>
+            <div class="nicdark_space40"></div>
 
             <h3 class="subtitle greydark">MORE INFORMATIONS</h3>
             <div class="nicdark_space20"></div>
@@ -65,7 +82,7 @@
 
                 <div class="nicdark_tabs nicdark_bg_grey nicdark_radius nicdark_shadow">
                     <div class="nicdark_margin20" id="tabs-1">
-                        <p>Lorem commodo lectus at sollicitudin elementum. Sed dolor turpis, condimentum sit amet maximus sit amet, rhoncus non turpis. Aenean convallis ac lorem et sodales. Sed dictum vel orci nec rhoncus. Donec quis porttitor arcu. Nulla ut justo quis augue commodo mattis nec vel ante.<br/><br/>Lorem commodo lectus at sollicitudin elementum. Sed dolor turpis, condimentum sit amet maximus sit amet, rhoncus non turpis. Aenean convallis ac lorem et sodales. Sed dictum vel orci nec rhoncus. Donec quis porttitor arcu. Nulla ut justo quis augue commodo mattis nec vel ante.<br/><br/>Lorem commodo lectus at sollicitudin elementum. Sed dolor turpis, condimentum sit amet maximus sit amet, rhoncus non turpis. Aenean convallis ac lorem et sodales. Sed dictum vel orci nec rhoncus. Donec quis porttitor arcu. Nulla ut justo quis augue commodo mattis nec vel ante.</p>
+                        <p>Lorem commodo lectus at sollicitudin elementum. Sed dolor turpis, condimentum sit amet maximus sit amet, rhoncus non turpis. Aenean convallis ac lorem et sodales. Sed dictum vel orci nec rhoncus. Donec quis porttitor arcu. Nulla ut justo quis augue commodo mattis nec vel ante.<br/><br/>Lorem commodo lectus at sollicitudin elementum. Sed dolor turpis, condimentum sit amet maximus sit amet, rhoncus non turpis. Aenean convallis ac lorem et sodales. Sed dictum vel orci nec rhoncus. Donec quis porttitor arcu. Nulla ut justo quis augue commodo mattis nec vel ante.<br/></p>
                     </div>
                     
                     <div class="nicdark_margin20" id="tabs-2">
@@ -86,7 +103,7 @@
             
             <div class="nicdark_textevidence">
                 
-                <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:310px;width:100%;"><div id="gmap_canvas" style="height:310px;width:100%;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://premium-wordpress-themes.org" id="get-map-data">premium-wordpress-themes.org</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(59.2036516,17.589218999999957),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(59.2036516, 17.589218999999957)});infowindow = new google.maps.InfoWindow({content:"<b>Ronnaskolan</b><br/>Robert Anbergs v&auml;g.<br/> Stockholm" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:345px;width:100%;"><div id="gmap_canvas" style="height:345px;width:100%;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://premium-wordpress-themes.org" id="get-map-data">premium-wordpress-themes.org</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(59.345336,18.079018),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(59.345336,18.079018)});infowindow = new google.maps.InfoWindow({content:"<b>Stockholm Stadion</b><br/>Lidingöv&auml;gen<br/> Stockholm" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});}google.maps.event.addDomListener(window, 'load', init_map);</script>
             </div>
 
         </div>
@@ -98,9 +115,9 @@
                 <div class="nicdark_margin20 nicdark_relative">
                         <a href="#" class="nicdark_displaynone_ipadpotr nicdark_btn_icon nicdark_bg_blue extrabig nicdark_radius_circle white nicdark_absolute nicdark_shadow"><i class="icon-location-outline"></i></a>
                         <div class="nicdark_activity nicdark_marginleft100 nicdark_disable_marginleft_ipadpotr">
-                            <h4>RONNASKOLAN</h4>                        
+                            <h4>STOCKHOLM STADION</h4>                        
                             <div class="nicdark_space20"></div>
-                            <p>Robert Anbergs väg.<br/>Södertalje</p>
+                            <p>Lindigovägen<br/>Stockholm</p>
                         </div>
                 </div>
             </div>
@@ -112,7 +129,7 @@
                 <div class="nicdark_margin20 nicdark_relative">
                         <a href="#" class="nicdark_displaynone_ipadpotr nicdark_btn_icon nicdark_bg_green extrabig nicdark_radius_circle white nicdark_absolute nicdark_shadow"><i class="icon-wristwatch"></i></a>
                         <div class="nicdark_activity nicdark_marginleft100 nicdark_disable_marginleft_ipadpotr">
-                            <h4>START AT 9:00 AM</h4>                        
+                            <h4>30 May 2015, 9:00 AM</h4>                        
                             <div class="nicdark_space20"></div>
                             <p>Lorem ipsum dolor sit amet, consec adipiscing elit.</p>
                         </div>
@@ -169,7 +186,7 @@
                         <div class="nicdark_margin20 nicdark_relative">
                         <a href="#" class="nicdark_btn_icon small nicdark_radius_circle grey nicdark_absolute nicdark_border_grey2"><i class="icon-clock"></i></a>
                         <div class="nicdark_activity nicdark_marginleft60">
-                            <h5 class="grey">MAKING THE BOTS</h5>
+                            <h5 class="grey">PROGRAMMING TIME</h5>
                             <div class="nicdark_space10"></div>
                             <p>Lorem ipsum dolor sit amet conse adip elit. Pellentesque tinci dolor sit amet.</p>
                         </div></div>
@@ -178,7 +195,7 @@
                         <div class="nicdark_margin20 nicdark_relative">
                         <a href="#" class="nicdark_btn_icon small nicdark_radius_circle grey nicdark_absolute nicdark_border_grey2"><i class="icon-clock"></i></a>
                         <div class="nicdark_activity nicdark_marginleft60">
-                            <h5 class="grey">THE EXHIBITION</h5>                        
+                            <h5 class="grey">A LITTLE COMPETITION</h5>                        
                             <div class="nicdark_space10"></div>
                             <p>Lorem ipsum dolor sit amet conse adip elit. Pellentesque tinci dolor sit amet.</p>
                         </div>
@@ -235,7 +252,7 @@
                 <!-- SLIDE  -->
                 <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7">
                             <!-- MAIN IMAGE -->
-                            <img src="img/slide/img99.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <img src="img/slide/kids_prg_0.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
@@ -257,7 +274,7 @@
 
 
                                  <video class="video-js vjs-default-skin" preload="none" width="100%" height="100%"
-                                poster='img/slide/img99.jpg' data-setup="{}">
+                                poster='img/slide/kids_prg_0.jpg' data-setup="{}">
                                 <source src='img/videos/video1.mp4' type='video/mp4' />
 
                                 </video>
@@ -284,19 +301,19 @@
                 
                 <!--start second-->
                 <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on"  data-title="LESSON">
-                    <img src="img/slide/img11.jpg"  alt="" data-lazyload="img/slide/img11.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                    <img src="img/slide/img11.jpg"  alt="" data-lazyload="img/slide/kids_prg_3.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                 </li>
                 <!--end second-->
 
                 <!--start second-->
                 <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on"  data-title="LESSON">
-                    <img src="img/slide/img9.jpg"  alt="" data-lazyload="img/slide/img9.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                    <img src="img/slide/img9.jpg"  alt="" data-lazyload="img/slide/kids_prg_2.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                 </li>
                 <!--end second-->
 
                 <!--start first-->
                 <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on"  data-title="FRIENDS">
-                    <img src="img/slide/img10.jpg"  alt="" data-lazyload="img/slide/img10.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">  
+                    <img src="img/slide/img10.jpg"  alt="" data-lazyload="img/slide/kids_prg_1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">  
                 </li>
                 <!--end first-->
 
@@ -391,6 +408,26 @@
   ga('create', 'UA-49425562-7', 'auto');
   ga('send', 'pageview');
 
+</script>
+
+<script type="text/javascript">
+    function join() {
+        window.location = 'dashboard?join=' + makeid(); 
+    }
+
+    function unregister() {
+        window.location = 'programming?unregister=' + makeid(); 
+    }
+
+    function makeid() {
+        var text = "";
+        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+        for( var i=0; i < 16; i++ )
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+        return text;
+    }
 </script>
 
 

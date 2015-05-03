@@ -1,10 +1,17 @@
+<?php include 'elements/session.php'; ?>
 <?php include 'elements/head.html'; ?> 
 <body id="start_nicdark_framework">
 
 <div class="nicdark_site">
     <div class="nicdark_site_fullwidth nicdark_clearfix"><div class="nicdark_overlay"></div>
-
-    <?php include 'elements/session.php'; ?>
+    <?php
+        if(isset($_SESSION['login'])) {
+            include 'elements/header_user.html';   
+        } else {
+            include 'elements/header.html';   
+        }
+    ?>
+    
 <!--start-->
 <!--start section-->
 <section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax nicdark_parallaxx_img-excursions">
@@ -65,10 +72,10 @@
         <div class="nicdark_space40"></div>
 
         <div class="grid grid_6 nicdark_aligncenter_iphoneland nicdark_aligncenter_iphonepotr">
-            <a class="nicdark_disable_floatright_iphoneland nicdark_disable_floatright_iphonepotr nicdark_btn nicdark_bg_green medium right nicdark_shadow nicdark_radius white nicdark_press"><i class="icon-left-open-outline"></i>&nbsp;&nbsp;&nbsp;PREV</a>
+            <a class="nicdark_disable_floatright_iphoneland nicdark_disable_floatright_iphonepotr nicdark_btn nicdark_bg_blue medium right nicdark_shadow nicdark_radius white nicdark_press"><i class="icon-left-open-outline"></i>&nbsp;&nbsp;&nbsp;PREV</a>
         </div>
         <div class="grid grid_6 nicdark_aligncenter_iphoneland nicdark_aligncenter_iphonepotr">
-            <a class=" nicdark_btn nicdark_bg_green medium nicdark_shadow nicdark_radius white nicdark_press">NEXT&nbsp;&nbsp;&nbsp;<i class="icon-right-open-outline"></i></a>
+            <a class=" nicdark_btn nicdark_bg_blue medium nicdark_shadow nicdark_radius white nicdark_press">NEXT&nbsp;&nbsp;&nbsp;<i class="icon-right-open-outline"></i></a>
         </div>
 
         <div class="nicdark_space50"></div>

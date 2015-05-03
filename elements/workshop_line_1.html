@@ -1,14 +1,14 @@
 <div class="grid grid_3">
                     
     <!--archive1-->
-    <div class="nicdark_archive1 nicdark_bg_yellow nicdark_radius nicdark_shadow">
+    <div class="nicdark_archive1 nicdark_bg_orange nicdark_radius nicdark_shadow">
 
-        <a href="#" class="nicdark_btn nicdark_bg_greydark white medium nicdark_radius nicdark_absolute_left">02<br/><small>May</small></a>
+        <a href="#" class="nicdark_btn nicdark_bg_greydark white medium nicdark_radius nicdark_absolute_left">07<br/><small>May</small></a>
 
         <img alt=""  src="img/events/img3.jpg">
         
         <div class="nicdark_textevidence nicdark_bg_greydark">
-            <h4 class="white nicdark_margin20">Makerspace</h4>
+            <h4 class="white nicdark_margin20">Mathspace</h4>
         </div>
         
         <div class="nicdark_margin20">
@@ -16,14 +16,14 @@
             <div class="nicdark_space10"></div>
             <h5 class="white"><i class="icon-clock-1"></i> 9:00 To 14:00</h5>
             <div class="nicdark_space10"></div>
-            <h5 class="white"><i class="icon-tags"></i> ICT</h5>
+            <h5 class="white"><i class="icon-tags"></i> Mathematics</h5>
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left small"><span class="nicdark_bg_white nicdark_radius"></span></div>
             <div class="nicdark_space20"></div>
             <p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt rutrum.</p>
             <div class="nicdark_space20"></div>
-            <a href="artbot" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow medium">CHECK IT</a>
-            <a href="" class="nicdark_btn white nicdark_radius nicdark_shadow small"><i class="icon-ok"></i>JOINED</a>
+            <a href="programming" class="nicdark_press nicdark_btn nicdark_bg_orangedark white nicdark_radius nicdark_shadow medium">CHECK IT</a>
+            <a href="#" class="nicdark_press nicdark_btn nicdark_bg_orangedark white nicdark_radius nicdark_shadow medium" onclick="javascript:join();">JOIN IT</a>
         </div>
 
     </div>
@@ -55,7 +55,7 @@
             <div class="nicdark_space20"></div>
             <p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt rutrum.</p>
             <div class="nicdark_space20"></div>
-            <a href="artbot" class="nicdark_press nicdark_btn nicdark_bg_greendark white nicdark_radius nicdark_shadow medium">CHECK IT</a>
+            <a href="programming" class="nicdark_press nicdark_btn nicdark_bg_greendark white nicdark_radius nicdark_shadow medium">CHECK IT</a>
             <a href="" class="nicdark_btn white nicdark_radius nicdark_shadow small"><i class="icon-ok"></i>JOINED</a>
         </div>
 
@@ -88,7 +88,7 @@
             <div class="nicdark_space20"></div>
             <p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt rutrum.</p>
             <div class="nicdark_space20"></div>
-            <a href="artbot" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow medium">CHECK IT</a>
+            <a href="programming" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow medium">CHECK IT</a>
             <a href="" class="nicdark_btn white nicdark_radius nicdark_shadow small"><i class="icon-ok"></i>JOINED</a>            
         </div>
 
@@ -121,8 +121,12 @@
             <div class="nicdark_space20"></div>
             <p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt rutrum.</p>
             <div class="nicdark_space20"></div>
-            <a href="artbot" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow medium">CHECK IT</a>
-            <a href="#" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow medium" onclick="javascript:join();">JOIN IT</a>
+            <a href="programming" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow medium">CHECK IT</a>
+            <?php if (isset($_SESSION['join'])) { ?>
+                <a href="" class="nicdark_btn white nicdark_radius nicdark_shadow small"><i class="icon-ok"></i>JOINED</a>            
+            <?php } else { ?>
+                <a href="#" class="nicdark_press nicdark_btn nicdark_bg_yellowdark white nicdark_radius nicdark_shadow medium" onclick="javascript:join();">JOIN IT</a>
+            <?php } ?>
         </div>
 
     </div>

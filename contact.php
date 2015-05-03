@@ -1,9 +1,16 @@
+<?php include 'elements/session.php'; ?> 
 <?php include 'elements/head.html'; ?> 
 <body id="start_nicdark_framework">
 
 <div class="nicdark_site">
     <div class="nicdark_site_fullwidth nicdark_clearfix"><div class="nicdark_overlay"></div>
-    <?php include 'elements/session.php'; ?> 
+    <?php
+        if(isset($_SESSION['login'])) {
+            include 'elements/header_user.html';   
+        } else {
+            include 'elements/header.html';   
+        }
+    ?>
 
 <!--start-->
 <!--start section-->
@@ -19,7 +26,7 @@
                 <div class="nicdark_space100"></div>
                 <h1 class="white subtitle">INICIO</h1>
                 <div class="nicdark_space10"></div>
-                <h3 class="subtitle white">TOWARD YOUR DREAMS</h3>
+                <h3 class="subtitle white">UNCOVER YOUR PASSIONS</h3>
                 <div class="nicdark_space20"></div>
                 <div class="nicdark_divider left big"><span class="nicdark_bg_white nicdark_radius"></span></div>
                 <div class="nicdark_space40"></div>

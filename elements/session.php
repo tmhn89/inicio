@@ -6,14 +6,13 @@
     if(isset($_GET['logout'])) {
     	session_unset();
         session_destroy();
-    }
-	if(isset($_SESSION['login'])) {
-        include 'elements/header_user.html';   
-    } else {
-        include 'elements/header.html';   
-    }
+    }	
 
+    if(isset($_GET['unregister'])) {
+        unset($_SESSION['join']);
+    } 
+    
     if(isset($_GET['join'])) {
         $_SESSION['join'] = $_GET['join'];
-    }    
+    }        
 ?>

@@ -1,9 +1,16 @@
+<?php include 'elements/session.php'; ?>
 <?php include 'elements/head.html'; ?>
 <body id="start_nicdark_framework">
 
 <div class="nicdark_site">
     <div class="nicdark_site_fullwidth nicdark_clearfix"><div class="nicdark_overlay"></div>
-    <?php include 'elements/session.php'; ?>
+    <?php
+        if(isset($_SESSION['login'])) {
+            include 'elements/header_user.html';   
+        } else {
+            include 'elements/header.html';   
+        }
+    ?>
 <!--start-->
 <!--start section-->
 <section class="nicdark_section">
@@ -47,7 +54,13 @@
             <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
             <div class="nicdark_space10"></div>
         </div>
-        <div class="grid grid_12"></div>
+        <div class="grid grid_12">
+            <div class="nicdark_archive1 nicdark_bg_grey nicdark_radius nicdark_shadow" style="padding: 20px">
+                <p style="margin-bottom: 10px;">Inicio is a non-profit organisation that provides children with practical, hands-on experiences that help them explore their interests, discover their passion, and find the right high school program. We offer a two year program where students attend engaging workshops corresponding to the 18 high school programs, tour companies to see their daily activities, and get in touch with professionals working in the industry.</p>
+                <p>The only thing we need is your curiosity.</p>
+            </div>  
+        </div>
+        <div class="nicdark_space10"></div>
         
         <?php include 'elements/about.html'; ?>
 
