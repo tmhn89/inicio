@@ -65,3 +65,16 @@ a.more {
 .programs p {
 	margin-bottom: 10px;
 }
+
+.nicdark_activity {
+	float: none;
+}
+
+.inicio-activities {
+	text-align: center;
+}
+
+.inicio-activities a {
+	display: inline-block;
+	margin: 10px;
+}

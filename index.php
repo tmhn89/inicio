@@ -86,103 +86,63 @@
             <div class="nicdark_space10"></div>
         </div>
 
-
-        <div class="grid grid_4 nicdark_relative">
-
-            <div class="nicdark_btn_iconbg nicdark_bg_yellow nicdark_absolute extrabig nicdark_shadow nicdark_radius">
-                <div>
-                    <i class="icon-child nicdark_iconbg left big white"></i> 
-                </div>
-            </div>
-            
-            <div class="nicdark_activity nicdark_marginleft100">
-                <h4>Workshops</h4>                        
-                <div class="nicdark_space20"></div>
-                <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Pellentesque tincidunt rutrum sapien, sed ultricies diam.</p>
-                <div class="nicdark_space20"></div>
-                <a href="#" class="nicdark_btn grey"><i class="icon-right-open-outline"></i> More</a>
-                <div class="nicdark_space20"></div>
-            </div>
-        
+        <div class="grid grid_2">
         </div>
 
-        <div class="grid grid_4 nicdark_relative">
-            
-            <div class="nicdark_btn_iconbg nicdark_bg_orange nicdark_absolute extrabig nicdark_shadow nicdark_radius">
-                <div>
-                    <i class="icon-th-outline nicdark_iconbg left big white"></i> 
+        <div class="grid grid_8">
+            <div class="nicdark_textevidence nicdark_bg_green nicdark_shadow nicdark_radius"  style="text-align: center">
+                <div class="nicdark_margin20">
+                    <h3 class="white">2 YEAR PROGRAM</h3>
+               </div>           
+            </div>
+
+            <div class="nicdark_textevidence">
+                <div class="nicdark_textevidence nicdark_width_percentage50">
+                    <div class="nicdark_focus center">                            
+                        <div class="nicdark_space20"></div>
+                        <div class="nicdark_activity">
+                            <h4>Year 1</h4>                        
+                            <div class="nicdark_space10"></div>
+                            <p>18 workshops corresponding</p>
+                            <p>all available highschool programs</p>
+                            <div class="nicdark_space10"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="nicdark_textevidence nicdark_width_percentage50">
+                    <div class="nicdark_focus center">                            
+                        <div class="nicdark_space20"></div>
+                        <div class="nicdark_activity">
+                            <h4>Year 2</h4>                        
+                            <div class="nicdark_space10"></div>
+                            <p>18 company visits</p>
+                            <p>Personal mentors</p>
+                            <div class="nicdark_space10"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <div class="nicdark_activity nicdark_marginleft100">
-                <h4>Extracurricular Events</h4>                        
-                <div class="nicdark_space20"></div>
-                <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Pellentesque tincidunt rutrum sapien, sed ultricies diam.</p>
-                <div class="nicdark_space20"></div>
-                <a href="#" class="nicdark_btn grey"><i class="icon-right-open-outline"></i> More</a>
-                <div class="nicdark_space20"></div>
-            </div>   
-        
-        </div>
 
-        <div class="grid grid_4 nicdark_relative">            
-            <div class="nicdark_btn_iconbg nicdark_bg_green nicdark_absolute extrabig nicdark_shadow nicdark_radius">
-                <div>
-                    <i class="icon-cab nicdark_iconbg left big white"></i> 
-                </div>
+            <div class="nicdark_textevidence nicdark_bg_blue nicdark_shadow nicdark_radius"  style="text-align: center">
+                <div class="nicdark_margin20">
+                    <h3 class="white">YEAR 1 + YEAR 2</h3>
+               </div>                          
             </div>
-            
-            <div class="nicdark_activity nicdark_marginleft100">
-                <h4>Company Tours</h4>                        
-                <div class="nicdark_space20"></div>
-                <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Pellentesque tincidunt rutrum sapien, sed ultricies diam.</p>
-                <div class="nicdark_space20"></div>
-                <a href="#" class="nicdark_btn grey"><i class="icon-right-open-outline"></i> More</a>
-                <div class="nicdark_space20"></div>
-            </div>    
-        
-        </div>
-
-
-        <div class="grid grid_4 nicdark_relative">
-
-            <div class="nicdark_btn_iconbg nicdark_bg_blue nicdark_absolute extrabig nicdark_shadow nicdark_radius">
-                <div>
-                    <i class="icon-user-add nicdark_iconbg left big white"></i> 
-                </div>
+            <div class="nicdark_space20"></div>
+            <div class="inicio-activities">
+                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_red medium nicdark_shadow nicdark_radius white">Workshop</a>
+                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_orange medium nicdark_shadow nicdark_radius white">Extracurricular Events</a>
+                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_green medium nicdark_shadow nicdark_radius white">Company Tours</a>
+                <br>
+                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_blue medium nicdark_shadow nicdark_radius white">Personal Mentors</a>
+                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_violet medium nicdark_shadow nicdark_radius white">Activity Tracking</a>
             </div>
-            
-            <div class="nicdark_activity nicdark_marginleft100">
-                <h4>Personal Mentors</h4>                        
-                <div class="nicdark_space20"></div>
-                <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Pellentesque tincidunt rutrum sapien, sed ultricies diam.</p>
-                <div class="nicdark_space20"></div>
-                <a href="#" class="nicdark_btn grey"><i class="icon-right-open-outline"></i> More</a>
-            </div>
-        
-        </div>
-
-        <div class="grid grid_4 nicdark_relative">
-            
-            <div class="nicdark_btn_iconbg nicdark_bg_violet nicdark_absolute extrabig nicdark_shadow nicdark_radius">
-                <div>
-                    <i class="icon-map nicdark_iconbg left big white"></i> 
-                </div>
-            </div>
-            
-            <div class="nicdark_activity nicdark_marginleft100">
-                <h4>Activity Tracking</h4>                        
-                <div class="nicdark_space20"></div>
-                <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Pellentesque tincidunt rutrum sapien, sed ultricies diam.</p>
-                <div class="nicdark_space20"></div>
-                <a href="#" class="nicdark_btn grey"><i class="icon-right-open-outline"></i> More</a>
-            </div>   
-        
-        </div>
-
-        <div class="grid grid_4 nicdark_relative">            
-        
         </div>        
+
+        <div class="grid grid_2">
+        </div>              
 
     </div>
     <!--end nicdark_container-->
