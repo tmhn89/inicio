@@ -78,3 +78,12 @@ a.more {
 	display: inline-block;
 	margin: 10px;
 }
+
+.team {
+	width: 100%;
+	text-align: center;
+} 
+.team .grid.grid_2 {
+	float: none;
+	display: inline-block;
+}

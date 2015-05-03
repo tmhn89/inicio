@@ -15,27 +15,27 @@
 <!--start section-->
 <section class="nicdark_section">
 
-	<div class="tp-banner-container">
-		<div class="nicdark_slide1" >
-			
-			<ul>								
-				<!--start first-->
-				<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on">
-					<img src="img/slide/slide1.jpg"  alt="" data-lazyload="img/slide/slide1.jpg" data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat">
-				</li>
-				<!--end first-->
+    <div class="tp-banner-container">
+        <div class="nicdark_slide1" >
+            
+            <ul>                                
+                <!--start first-->
+                <li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on">
+                    <img src="img/slide/slide1.jpg"  alt="" data-lazyload="img/slide/slide1.jpg" data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat">
+                </li>
+                <!--end first-->
 
 
-				<!--start second-->
-				<li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
-					<img src="img/slide/slide2.jpg"  alt="" data-lazyload="img/slide/slide2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-				</li>
-				<!--end second-->
+                <!--start second-->
+                <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
+                    <img src="img/slide/slide2.jpg"  alt="" data-lazyload="img/slide/slide2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                </li>
+                <!--end second-->
 
-			</ul>
-			
-		</div>
-	</div>
+            </ul>
+            
+        </div>
+    </div>
 
 </section>
 <!--end section-->
@@ -94,51 +94,42 @@
                 <div class="nicdark_margin20">
                     <h3 class="white">2 YEAR PROGRAM</h3>
                </div>           
-            </div>
+            </div>            
 
-            <div class="nicdark_textevidence">
-                <div class="nicdark_textevidence nicdark_width_percentage50">
-                    <div class="nicdark_focus center">                            
-                        <div class="nicdark_space20"></div>
-                        <div class="nicdark_activity">
-                            <h4>Year 1</h4>                        
-                            <div class="nicdark_space10"></div>
-                            <p>18 workshops corresponding</p>
-                            <p>all available highschool programs</p>
-                            <div class="nicdark_space10"></div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="nicdark_textevidence nicdark_width_percentage50">
-                    <div class="nicdark_focus center">                            
-                        <div class="nicdark_space20"></div>
-                        <div class="nicdark_activity">
-                            <h4>Year 2</h4>                        
-                            <div class="nicdark_space10"></div>
-                            <p>18 company visits</p>
-                            <p>Personal mentors</p>
-                            <div class="nicdark_space10"></div>
-                        </div>
-                    </div>
+            <div class="grid grid_4" style="margin-left: 0;">
+                <div class="nicdark_archive1 nicdark_bg_grey nicdark_radius nicdark_shadow center" style="padding: 20px 0;">
+                    <h3>Year 1</h3>
+                    <div class="nicdark_space20"></div>
+                    <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_red small nicdark_shadow nicdark_radius white">Workshops</a>
+                    <div class="nicdark_space20"></div>
+                    <p>18 workshops corresponding</p>
+                    <p>all available highschool programs</p>
                 </div>
             </div>
 
-            <div class="nicdark_textevidence nicdark_bg_blue nicdark_shadow nicdark_radius"  style="text-align: center">
-                <div class="nicdark_margin20">
-                    <h3 class="white">YEAR 1 + YEAR 2</h3>
-               </div>                          
+            <div class="grid grid_4" style="margin-right: 0;">
+                <div class="nicdark_archive1 nicdark_bg_grey nicdark_radius nicdark_shadow center" style="padding: 20px 0;">
+                    <h3>Year 2</h3>
+                    <div class="nicdark_space20"></div>
+                    <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_green small nicdark_shadow nicdark_radius white">Company Tours</a>
+                    <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_blue small nicdark_shadow nicdark_radius white">Personal Mentors</a>
+                    <div class="nicdark_space20"></div>
+                    <p>18 company visits to see their daily activities</p>
+                    <p>Personal mentors fitted for your needs</p>
+                </div>
             </div>
-            <div class="nicdark_space20"></div>
-            <div class="inicio-activities">
-                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_red medium nicdark_shadow nicdark_radius white">Workshop</a>
-                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_orange medium nicdark_shadow nicdark_radius white">Extracurricular Events</a>
-                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_green medium nicdark_shadow nicdark_radius white">Company Tours</a>
-                <br>
-                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_blue medium nicdark_shadow nicdark_radius white">Personal Mentors</a>
-                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_violet medium nicdark_shadow nicdark_radius white">Activity Tracking</a>
+            <div class="nicdark_space10"></div>
+
+            <div class="nicdark_archive1 nicdark_bg_grey nicdark_radius nicdark_shadow center" style="padding: 20px 0;">
+                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_yellow small nicdark_shadow nicdark_radius white">Industry Contacts</a>
+                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_orange small nicdark_shadow nicdark_radius white">Extracurricular Events</a>
+                <a href="" class="nicdark_zoom nicdark_btn nicdark_bg_violet small nicdark_shadow nicdark_radius white">Activity Tracking</a>
+                <div class="nicdark_space20"></div>
+                <p>Industry contacts gathered from your visits</p>
+                <p>After school events to inspire your passions</p>
+                <p>Keep track of your 2 year progress</p>
             </div>
+
         </div>        
 
         <div class="grid grid_2">
@@ -164,8 +155,9 @@
             <div class="nicdark_divider left big"><span class="nicdark_bg_violet nicdark_radius"></span></div>
             <div class="nicdark_space10"></div>
         </div>
-
-        <?php include 'elements/team.html'; ?>
+        <div class="team">
+            <?php include 'elements/team.html'; ?>
+        </div>
 
     </div>
     <!--end nicdark_container-->
@@ -231,118 +223,118 @@
     <script src="js/settings.js"></script> <!--settings-->
 <!--custom js-->
 <script type="text/javascript">
-	jQuery(document).ready(function() {
+    jQuery(document).ready(function() {
 
 
-		//START SLIDE
-		jQuery('.nicdark_slide1').show().revolution(
-		{
-			dottedOverlay:"none",
-			delay:16000,
-			startwidth:1170,
-			startheight:500,
-			hideThumbs:200,
-			
-			thumbWidth:100,
-			thumbHeight:50,
-			thumbAmount:5,
-			
-			navigationType:"none",
-			navigationArrows:"solo",
-			navigationStyle:"preview2",
-			
-			touchenabled:"on",
-			onHoverStop:"on",
-			
-			swipe_velocity: 0.7,
-			swipe_min_touches: 1,
-			swipe_max_touches: 1,
-			drag_block_vertical: false,
-									
-			parallax:"mouse",
-			parallaxBgFreeze:"on",
-			parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
-									
-			keyboardNavigation:"off",
-			
-			navigationHAlign:"center",
-			navigationVAlign:"bottom",
-			navigationHOffset:0,
-			navigationVOffset:20,
+        //START SLIDE
+        jQuery('.nicdark_slide1').show().revolution(
+        {
+            dottedOverlay:"none",
+            delay:16000,
+            startwidth:1170,
+            startheight:500,
+            hideThumbs:200,
+            
+            thumbWidth:100,
+            thumbHeight:50,
+            thumbAmount:5,
+            
+            navigationType:"none",
+            navigationArrows:"solo",
+            navigationStyle:"preview2",
+            
+            touchenabled:"on",
+            onHoverStop:"on",
+            
+            swipe_velocity: 0.7,
+            swipe_min_touches: 1,
+            swipe_max_touches: 1,
+            drag_block_vertical: false,
+                                    
+            parallax:"mouse",
+            parallaxBgFreeze:"on",
+            parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
+                                    
+            keyboardNavigation:"off",
+            
+            navigationHAlign:"center",
+            navigationVAlign:"bottom",
+            navigationHOffset:0,
+            navigationVOffset:20,
 
-			soloArrowLeftHalign:"left",
-			soloArrowLeftValign:"center",
-			soloArrowLeftHOffset:20,
-			soloArrowLeftVOffset:0,
+            soloArrowLeftHalign:"left",
+            soloArrowLeftValign:"center",
+            soloArrowLeftHOffset:20,
+            soloArrowLeftVOffset:0,
 
-			soloArrowRightHalign:"right",
-			soloArrowRightValign:"center",
-			soloArrowRightHOffset:20,
-			soloArrowRightVOffset:0,
-					
-			shadow:0,
-			fullWidth:"on",
-			fullScreen:"off",
+            soloArrowRightHalign:"right",
+            soloArrowRightValign:"center",
+            soloArrowRightHOffset:20,
+            soloArrowRightVOffset:0,
+                    
+            shadow:0,
+            fullWidth:"on",
+            fullScreen:"off",
 
-			spinner:"spinner4",
-			
-			stopLoop:"off",
-			stopAfterLoops:-1,
-			stopAtSlide:-1,
+            spinner:"spinner4",
+            
+            stopLoop:"off",
+            stopAfterLoops:-1,
+            stopAtSlide:-1,
 
-			shuffle:"off",
-			
-			autoHeight:"off",						
-			forceFullWidth:"off",						
-									
-			hideTimerBar: "on",					
-									
-			hideThumbsOnMobile:"off",
-			hideNavDelayOnMobile:1500,						
-			hideBulletsOnMobile:"off",
-			hideArrowsOnMobile:"off",
-			hideThumbsUnderResolution:0,
-			
-			hideSliderAtLimit:0,
-			hideCaptionAtLimit:0,
-			hideAllCaptionAtLilmit:0,
-			startWithSlide:0,
-			videoJsPath:"rs-plugin/videojs/",
-			fullScreenOffsetContainer: ""	
-		});
-		//END SLIDE
-		
-		
+            shuffle:"off",
+            
+            autoHeight:"off",                       
+            forceFullWidth:"off",                       
+                                    
+            hideTimerBar: "on",                 
+                                    
+            hideThumbsOnMobile:"off",
+            hideNavDelayOnMobile:1500,                      
+            hideBulletsOnMobile:"off",
+            hideArrowsOnMobile:"off",
+            hideThumbsUnderResolution:0,
+            
+            hideSliderAtLimit:0,
+            hideCaptionAtLimit:0,
+            hideAllCaptionAtLilmit:0,
+            startWithSlide:0,
+            videoJsPath:"rs-plugin/videojs/",
+            fullScreenOffsetContainer: ""   
+        });
+        //END SLIDE
+        
+        
 
-		//START PARALLAX SECTIONS
-		$('#nicdark_parallax_big_image').parallax("50%", 0.3);
-		$('#nicdark_parallax_2_btns').parallax("50%", 0.3);
-		$('#nicdark_parallax_countdown').parallax("50%", 0.3);
-		$('#nicdark_parallax_counter').parallax("50%", 0.3);
-		//END PARALLAX SECTIONS
+        //START PARALLAX SECTIONS
+        $('#nicdark_parallax_big_image').parallax("50%", 0.3);
+        $('#nicdark_parallax_2_btns').parallax("50%", 0.3);
+        $('#nicdark_parallax_countdown').parallax("50%", 0.3);
+        $('#nicdark_parallax_counter').parallax("50%", 0.3);
+        //END PARALLAX SECTIONS
 
-		
+        
 
-		//START COUNTDOWN GRID SECTION
-		//variables
-		var endDate = "May 12, 2015 15:00:00";
-		var grid = "grid_3";
-		//insert the class nicdark_displaynone in the var if you wnat to hide the visualization
-		var display_years = "nicdark_displaynone";
-		var display_days = "";
-		var display_hours = "";
-		var display_minutes = "";
-		var display_seconds = "";
-		//call
-		$(".nicdark_countdown").countdown({
-		  date: endDate,
-		  render: function(data) {
-		    $(this.el).html("<div class=\"grid "+ grid +" "+ display_years +" \"><div class=\"nicdark_textevidence center\"><h1 class=\"subtitle white extrasize\">"+ this.leadingZeros(data.years, 4) +"</h1><div class=\"nicdark_space20\"></div><a class=\"nicdark_btn nicdark_bg_blue small nicdark_shadow nicdark_radius white\">YEARS</a><div class=\"nicdark_space5\"></div></div></div><div class=\"grid "+ grid +" "+ display_days +"  \"><div class=\"nicdark_textevidence center\"><h1 class=\"subtitle white extrasize\">"+ this.leadingZeros(data.days, 3) +"</h1><div class=\"nicdark_space20\"></div><a class=\"nicdark_btn nicdark_bg_blue small nicdark_shadow nicdark_radius white\">DAYS</a><div class=\"nicdark_space5\"></div></div></div><div class=\"grid "+ grid +" "+ display_hours +"  \"><div class=\"nicdark_textevidence center\"><h1 class=\"subtitle white extrasize\">"+ this.leadingZeros(data.hours, 2) +"</h1><div class=\"nicdark_space20\"></div><a class=\"nicdark_btn nicdark_bg_yellow small nicdark_shadow nicdark_radius white\">HOURS</a><div class=\"nicdark_space5\"></div></div></div><div class=\"grid "+ grid +" "+ display_minutes +"  \"><div class=\"nicdark_textevidence center\"><h1 class=\"subtitle white extrasize\">"+ this.leadingZeros(data.min, 2) +"</h1><div class=\"nicdark_space20\"></div><a class=\"nicdark_btn nicdark_bg_green small nicdark_shadow nicdark_radius white\">MINUTES</a><div class=\"nicdark_space5\"></div></div></div><div class=\"grid "+ grid +" "+ display_seconds +"  \"><div class=\"nicdark_textevidence center\"><h1 class=\"subtitle white extrasize\">"+ this.leadingZeros(data.sec, 2) +"</h1><div class=\"nicdark_space20\"></div><a class=\"nicdark_btn nicdark_bg_violet small nicdark_shadow nicdark_radius white\">SECONDS</a><div class=\"nicdark_space5\"></div></div></div>");
-		  }
-		});
-		//END COUNTDOWN GRID SECTION
+        //START COUNTDOWN GRID SECTION
+        //variables
+        var endDate = "May 12, 2015 15:00:00";
+        var grid = "grid_3";
+        //insert the class nicdark_displaynone in the var if you wnat to hide the visualization
+        var display_years = "nicdark_displaynone";
+        var display_days = "";
+        var display_hours = "";
+        var display_minutes = "";
+        var display_seconds = "";
+        //call
+        $(".nicdark_countdown").countdown({
+          date: endDate,
+          render: function(data) {
+            $(this.el).html("<div class=\"grid "+ grid +" "+ display_years +" \"><div class=\"nicdark_textevidence center\"><h1 class=\"subtitle white extrasize\">"+ this.leadingZeros(data.years, 4) +"</h1><div class=\"nicdark_space20\"></div><a class=\"nicdark_btn nicdark_bg_blue small nicdark_shadow nicdark_radius white\">YEARS</a><div class=\"nicdark_space5\"></div></div></div><div class=\"grid "+ grid +" "+ display_days +"  \"><div class=\"nicdark_textevidence center\"><h1 class=\"subtitle white extrasize\">"+ this.leadingZeros(data.days, 3) +"</h1><div class=\"nicdark_space20\"></div><a class=\"nicdark_btn nicdark_bg_blue small nicdark_shadow nicdark_radius white\">DAYS</a><div class=\"nicdark_space5\"></div></div></div><div class=\"grid "+ grid +" "+ display_hours +"  \"><div class=\"nicdark_textevidence center\"><h1 class=\"subtitle white extrasize\">"+ this.leadingZeros(data.hours, 2) +"</h1><div class=\"nicdark_space20\"></div><a class=\"nicdark_btn nicdark_bg_yellow small nicdark_shadow nicdark_radius white\">HOURS</a><div class=\"nicdark_space5\"></div></div></div><div class=\"grid "+ grid +" "+ display_minutes +"  \"><div class=\"nicdark_textevidence center\"><h1 class=\"subtitle white extrasize\">"+ this.leadingZeros(data.min, 2) +"</h1><div class=\"nicdark_space20\"></div><a class=\"nicdark_btn nicdark_bg_green small nicdark_shadow nicdark_radius white\">MINUTES</a><div class=\"nicdark_space5\"></div></div></div><div class=\"grid "+ grid +" "+ display_seconds +"  \"><div class=\"nicdark_textevidence center\"><h1 class=\"subtitle white extrasize\">"+ this.leadingZeros(data.sec, 2) +"</h1><div class=\"nicdark_space20\"></div><a class=\"nicdark_btn nicdark_bg_violet small nicdark_shadow nicdark_radius white\">SECONDS</a><div class=\"nicdark_space5\"></div></div></div>");
+          }
+        });
+        //END COUNTDOWN GRID SECTION
 
-	});
+    });
 </script>
 <!--custom js-->
 
