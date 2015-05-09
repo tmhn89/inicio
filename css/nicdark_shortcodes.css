@@ -179,7 +179,7 @@ JQUERY UI
 
 /* 6 - START LOGO*/
 .nicdark_logo{ float: left; position: relative; width: 10px; height: 10px; }
-.nicdark_logo img{ position: absolute; width: 175px; margin-top: -28px; border:0;}
+.nicdark_logo img{ position: absolute; width: 160px; margin-top: -7px; border:0; margin-left: 10px;}
 /*END LOGO*/
 
 
@@ -531,9 +531,9 @@ JQUERY UI
 
 
 /* 35 - START NICDARKARCHIVE1*/
-.nicdark_archive1{ float: left; width: 100%; position: relative; overflow: hidden; }
+.nicdark_archive1{ float: left; width: 100%; position: relative; overflow: hidden; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; }
 .nicdark_archive1.center{ text-align: center; }
-.nicdark_archive1 img{ width: 100%; height: auto; display: block;}
+.nicdark_archive1 img{ width: 100%; height: auto; display: block; }
 /*END NICDARKARCHIVE1*/
 
 

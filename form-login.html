@@ -5,9 +5,9 @@
             <h4 class="white nicdark_margin20">LOG IN FORM</h4>
         </div>
         <div class="nicdark_margin20">
-            <input class="nicdark_bg_grey2 nicdark_radius nicdark_shadow grey small subtitle" type="text" value="" placeholder="USERNAME">
+            <input class="nicdark_bg_grey2 nicdark_radius nicdark_shadow grey small subtitle" type="text" value="" placeholder="USERNAME" id="username">
             <div class="nicdark_space20"></div>
-            <input class="nicdark_bg_grey2 nicdark_radius nicdark_shadow grey small subtitle" type="text" value="" placeholder="PASSWORD">
+            <input class="nicdark_bg_grey2 nicdark_radius nicdark_shadow grey small subtitle" type="password" value="" placeholder="PASSWORD" id="password">
             <div class="nicdark_space20"></div>
             <input class="nicdark_btn nicdark_bg_yellow medium nicdark_shadow nicdark_radius white" type="submit" id="login" value="LOG IN">
         </div>
@@ -17,8 +17,16 @@
 
 <script type="text/javascript">
     $(function() {
-        $('#login').click(function() {            
-            window.location = 'dashboard?login=' + makeid();        
+        $('#login').click(function() {
+            var username = $('#username').val();
+            var password = $('#password').val();
+            if (username == 'student' && password == 'inicio') {
+                window.location = 'dashboard?login=' + makeid() + '&student=' + makeid();
+            } else if (username == 'supervisor' && password == 'Bizdevlab') {
+                window.location = 'portfolio?login=' + makeid() + '&supervisor=' + makeid();
+            } else {
+                $(this).parent().append('<br><br><p class="red">Wrong username & password combination</p>');
+            }
         });
     })
 

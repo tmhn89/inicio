@@ -14,7 +14,7 @@
     
 <!--start-->
 <!--start section-->
-<section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax nicdark_parallaxx_img-excursions">
+<section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax nicdark_parallaxx_img-events">
 
     <div class="nicdark_filter greydark">
 

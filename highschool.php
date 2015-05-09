@@ -83,7 +83,7 @@
                         <li><b>Pedagogical work: </b>You learn about the learning and growth of children and youth. The orientation enables you to work as e.g. a child minder or pupil assistant.</li>
                         <li><b>Social work: </b>You learn how to deal with people in different situations and how to provide good support and service. The orientation enables you to work as e.g. a security guard, personal assistant or providing support and service in the functional disability area.</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -105,7 +105,7 @@
                         <li><b>Painting: </b>You learn about painting and repainting, setting up different wall covering materials and paints. The orientation enables you to work as e.g. a house painter.</li>
                         <li><b>Sheet metal: </b>You learn about sheet metal in building, ventilation and indoor climate. The orientation enables you to work as e.g. a building sheet metal worker or ventilation sheet metal worker.</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -126,7 +126,7 @@
                         <li><b>Electrical technology: </b>You learn to install and repair electrical facilities, alarms and systems for TVs and computers. The orientation enables you to work as e.g. an installation electrician, industrial electrician or railway technician in electricity and signals.</li>
                         <li><b>Energy technology: </b>You learn about operations and service functions in energy, environmental, water and process industries. The orientation enables you to work as e.g. an operator in power and heating technology or in water and environmental technology.</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -170,7 +170,7 @@
                         <li><b>Passenger cars: </b>You learn about diagnosing, repairing and servicing light vehicles. The orientation enables you to work as e.g. a car mechanic.</li>
                         <li><b>Transport: </b>You learn about traffic, transport systems and logistics. The orientation enables you to work as e.g. a bus driver or lorry driver</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -192,7 +192,7 @@
                         <li><b>Music: </b>You learn about music from different periods and cultures. You develop your ability to perform music, be artistically creative, and enhance your ability to experience and interpret music from different perspectives.</li>
                         <li><b>Theatre: </b>You learn about the theatre. You develop your ability to represent onstage, communicate, experience and interpret both other students’ representations and professional theatrical performances from different perspectives.</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -211,7 +211,7 @@
                         <li><b>Economics: </b>You learn about business areas such as marketing, accounting, calculations, leadership and organisation. You learn to start and run a business.</li>
                         <li><b>Law: </b>You learn about the importance of the legal system in society and how it is related to international law. You develop your ability to analyse and assess legal problems.</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -230,7 +230,7 @@
                         <li><b>Administrative services: </b>You learn about administration, leadership and organisation in companies and public administration. You also learn about entrepreneurship and service. The orientation enables you to work as e.g. a financial assistant, IT administrator, market assistant, staff assistant, accounting assistant, or work in customer service and reception.</li>
                         <li><b>Commerce and service: </b>You learn about retail and wholesale areas. You also learn about e-commerce, leadership and running a business, and about entrepreneurship, service and communication. The orientation enables you to work in e.g. in-store communications, shop sales, company sales, purchasing, marketing, and in logistics and customer service</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -252,7 +252,7 @@
                         <li><b>Textile design: </b>You learn manufacturing methods, construction and about tools, machines and materials. The orientation enables you to work as e.g. a purchasing assistant, dressmaker, or in textiles and clothes.</li>
                         <li><b>Other handicrafts: </b>You learn manufacturing methods, techniques and about tools and materials in your chosen profile. The orientation enables you to work as e.g. a glass-blower, blacksmith, gold or silversmith, potter, saddler, chimney sweep, hair and make-up stylist, upholsterer or watchmaker.</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -271,7 +271,7 @@
                         <li><b>Hotel and conference: </b>You learn about the different departments in hotels and about conferences. You develop service skills, care of customers, and how to organise, plan and carry out meetings and events. The orientation enables you to work in e.g. reception, booking, conferences or floor service.</li>
                         <li><b>Tourism and travel: </b>You learn about tourist information, organisation and travel planning, activities and experiences, travel destinations and itineraries, and enhance your skills in service and customer care. The orientation enables you to work in e.g. activities and experiences, tourist information, guiding, or booking and sales.</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -290,7 +290,7 @@
                         <li><b>Product and machine technology: </b>You learn to handle tools, industrial equipment and materials. The orientation enables you to work as e.g. a CNC operator with metal and wood, foundry worker, machine operator, joiner, graphic designer, printer, production technician, sawmill operator or workshop carpenter.</li>
                         <li><b>Welding technology: </b>You learn welding techniques and sheet metalwork. The orientation enables you to work as e.g. a welder</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -310,7 +310,7 @@
                         <li><b>Fresh foods, delicatessen and catering: </b>You learn about food, sales, choice of raw materials, cooking, drinks, table laying and arrangements. The orientation enables you to work in e.g. shop sales in fresh foods and delicatessen products.</li>
                         <li><b>Kitchen and serving: </b>You learn about food preparation in restaurants, about serving and working in a bar. The orientation enables you to work as e.g. a chef, waitress or waiter.</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -331,7 +331,7 @@
                         <li><b>Ventilation technology: </b>You learn about service, operations, maintenance, measurement, adjustment, and functions of different ventilation systems and fault tracing. The orientation enables you to work as e.g. a ventilation technician.</li>
                         <li><b>HVAC: </b>You learn about installation, service and maintenance of heating and sanitary systems. The orientation enables you to work as e.g. a fitter in HVAC, industrial piping or insulation of technical installations.</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -352,7 +352,7 @@
                         <li><b>Forestry: </b>You learn about forests as a sustainable resource and deepen your knowledge of technology and biology. The orientation enables you to work in e.g. hunting and game conservation, nature guiding, forest machine driver or with forestry maintenance.</li>
                         <li><b>Gardens: </b>You learn about land, plants, plant environments and the importance of gardens in society. You also learn about biology, technology and finance. The orientation enables you to work in e.g. care of external environments, landscape gardening, horticulture - outdoors or greenhouse</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -370,7 +370,7 @@
                         <li><b>Culture: </b>You learn about culture and aesthetic forms of expression, literature, philosophy and psychology. You study and discuss different cultural expressions and experiences from different perspectives.</li>
                         <li><b>Languages: </b>You deepen your knowledge of languages, and the relationship between language, culture and society. You learn about the value of language, and how knowledge of one language reinforces knowledge of other languages.</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -411,7 +411,7 @@
                         <li><b>Natural sciences: </b>You learn about biology, physics, chemistry and mathematics.</li>
                         <li><b>Natural sciences and society: </b>You learn about science, social studies and geography.</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
@@ -429,7 +429,7 @@
                         <li><b>Media, information and communications: </b>You learn about the role of media in society, media technology, journalism, information, advertising and interactive forms of communication. You study how the media influences people’s views and perceptions of the surrounding world.</li>
                         <li><b>Social sciences: </b>You learn about social structures and people’s living conditions. You broaden and extend your knowledge of various social issues through interpreting, explaining and applying the methods of the social sciences.</li>
                     </ul>
-                    <p style="text-align: right"><a href="programming" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
+                    <p style="text-align: right"><a href="" class="nicdark_press nicdark_btn nicdark_bg_bluedark white nicdark_radius nicdark_shadow small">PROGRAM, I CHOOSE YOU !!</a></p>
                 </div>
             </div>
 
