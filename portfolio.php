@@ -5,15 +5,16 @@
 <div class="nicdark_site">
     <div class="nicdark_site_fullwidth nicdark_clearfix"><div class="nicdark_overlay"></div>
     <?php
-        if(isset($_SESSION['login']) && isset($_SESSION['supervisor'])) {
+        //if(isset($_SESSION['login']) && isset($_SESSION['supervisor'])) {
+        if(isset($_SESSION['auth']) && $_SESSION['auth'] == 'Y739iITRl7Aggkcz') {
             include 'elements/header_sup.html';
         } else {
-            header("Location: index"); 
-        }
+            die("<script>location.href = 'index'</script>");
+        }        
     ?>
 <!--start-->
 <!--start section-->
-<section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax nicdark_parallaxx_img5">
+<section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax nicdark_parallaxx_imgteam">
 
     <div class="nicdark_filter greydark">
 
@@ -23,13 +24,15 @@
             <div class="grid grid_12">
                 <div class="nicdark_space100"></div>
                 <div class="nicdark_space100"></div>
+                <div class="nicdark_space50"></div>
+                <div class="nicdark_space50"></div>
+                <div class="nicdark_space50"></div>
+                <div class="nicdark_space50"></div>
+                <div class="nicdark_space100 screen1920"></div>
                 <h1 class="white subtitle">Our Portfolio</h1>
                 <div class="nicdark_space10"></div>
-                <h3 class="subtitle white">Treasures of Team Inicio in BizDevLab2015 course</h3>
-                <div class="nicdark_space20"></div>
-                <div class="nicdark_divider left big"><span class="nicdark_bg_white nicdark_radius"></span></div>
-                <div class="nicdark_space40"></div>
-                <div class="nicdark_space50"></div>
+                <h3 class="subtitle white">Treasures of Team Inicio in BizDevLab2015 course</h3>                        
+                <div class="nicdark_space20"></div>                
             </div>
 
         </div>
@@ -53,20 +56,19 @@
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
             <div class="nicdark_space40"></div>
-            <a href="http://www.youtube.com/embed/E4LULoaqxUE" class="open-popup-link" style="outline: none">
-                <img src="img/play.png" style="height: 220px; width: 500px; border-radius: 5px;"/>
+            <a href="http://www.youtube.com/embed/cn7MJVfe_ns" class="open-popup-link" style="outline: none">
+                <img src="img/storyplay.png" style="height: 270px; width: 480px; border-radius: 5px;"/>
             </a>                
         </div>
         <div class="grid grid_6">
-            <h2 class="subtitle greydark">LESSON LEARNED</h2>
+            <h2 class="subtitle greydark">LESSONS LEARNED</h2>
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
             <div class="nicdark_space40"></div>
-            <div class="nicdark_archive1 nicdark_bg_grey nicdark_radius nicdark_shadow" style="padding: 20px">
-                <p style="margin-bottom: 10px;">Inicio is a non-profit organisation that provides children with practical, hands-on experiences that help them explore their interests, discover their passion, and find the right high school program. </p>
-                <p style="margin-bottom: 10px;">We offer a two year program where students attend engaging workshops corresponding to the 18 high school programs, tour companies to see their daily activities, and get in touch with professionals working in the industry.</p>
-                <!--p><a href="pages.html" class="nicdark_mpopup_ajax">The only thing we need is your curiosity.</a></p-->            
-                <p><a href="#pages" class="nicdark_mpopup_window">The only thing we need is your curiosity.</a></p>
+            <div class="nicdark_archive1 nicdark_bg_grey nicdark_radius nicdark_shadow center" style="padding: 20px">
+                <a href="#pages" class="nicdark_mpopup_window nicdark_press nicdark_btn nicdark_bg_blue extrasmall nicdark_radius nicdark_shadow white biglink"><i class="icon-file-powerpoint"></i>View as Slide</a> 
+                OR
+                <a href="doc/inicio_lesson_learned.pdf" target="_blank" class="nicdark_press nicdark_btn nicdark_bg_blue extrasmall nicdark_radius nicdark_shadow white biglink"><i class="icon-file-pdf"></i>Download as PDF</a>
             </div>
             <div id="pages" class="nicdark_bg_white nicdark_radius zoom-anim-dialog mfp-hide" style="width: 0; margin: 0 auto;">
                 <div class="nicdark_margin20">
@@ -95,7 +97,12 @@
                                 <div class="double" style="background-image:url(img/ll/Slide19.png)"></div>
                                 <div class="double" style="background-image:url(img/ll/Slide20.png)"></div>
                                 <div class="double" style="background-image:url(img/ll/Slide21.png)"></div>
-                                <div class="double" style="background-image:url(img/ll/Slide1.png)"></div>
+                                <div class="double" style="background-image:url(img/ll/Slide22.png)"></div>
+                                <div class="double" style="background-image:url(img/ll/Slide23.png)"></div>
+                                <div class="double" style="background-image:url(img/ll/Slide24.png)"></div>
+                                <div class="double" style="background-image:url(img/ll/Slide25.png)"></div>
+                                <div class="double" style="background-image:url(img/ll/Slide25.png)"></div>                                
+                                <div class="page" style="background-image:url(img/ll/Slide1.png)"></div>
                             </div>
                         </div>
                     </div>
@@ -114,13 +121,13 @@
             <div class="nicdark_bg_grey nicdark_radius nicdark_shadow" style="padding: 20px">
                 <div class="nicdark_mpopup_gallery">
                     <div class="nicdark_margin100 size100" style="border: 1px solid #EE9393">
-                        <a href="img/portfolio/bc1.png" title="First Iteration"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/bc1.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/portfolio/bc1.png" title="First Iteration"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/bc1.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="nicdark_margin100 size100" style="border: 1px solid #EE9393">
-                        <a href="img/portfolio/bc2.png" title="Second Iteration"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/bc2.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/portfolio/bc2.png" title="Second Iteration"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/bc2.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="nicdark_margin100 size100" style="border: 1px solid #EE9393">
-                        <a href="img/portfolio/bc3.png" title="Thrid Iteration"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/bc3.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/portfolio/bc3.png" title="Thrid Iteration"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/bc3.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>                                                
                 </div>
                 <h4 class="center greydark">Business Model Canvases</h4>
@@ -133,19 +140,19 @@
                         <a href="img/portfolio/d1.png" title="Evaluation matrix"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/d1.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div-->
                     <div class="nicdark_margin100 size100">
-                        <a href="img/portfolio/d2.png" title="Value Proposition Diagram"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/d2.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/portfolio/d2.png" title="Value Proposition Diagram"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/d2.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="nicdark_margin100 size100">
-                        <a href="img/portfolio/d3.png" title="Archetype Diagram: School"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/d3.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/portfolio/d3.png" title="Archetype Diagram: School"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/d3.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="nicdark_margin100 size100">
-                        <a href="img/portfolio/d4.png" title="Archetype Diagram: Businesss"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/d4.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/portfolio/d4.png" title="Archetype Diagram: Businesss"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/d4.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>  
                     <div class="nicdark_margin100 size100">
-                        <a href="img/portfolio/d5.png" title="Channel Diagram"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/d5.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/portfolio/d5.png" title="Channel Diagram"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/d5.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="nicdark_margin100 size100">
-                        <a href="img/portfolio/d6.png" title="Get/Keep/Grow Diagram"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/d6.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/portfolio/d6.png" title="Get/Keep/Grow Diagram"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/d6.png" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                 </div>
                 <h4 class="center greydark">Diagrams</h4>
@@ -158,47 +165,92 @@
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
             <div class="nicdark_space10"></div>
-        </div>
-        <div class="grid grid_4">
+        </div>                    
+        <div class="grid grid_12">         
+            <div class="nicdark_bg_grey nicdark_radius nicdark_shadow" style="padding: 20px">
+                <div class="nicdark_mpopup_gallery">
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img1.jpg" title="First meeting - idea brainstorming"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img1.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img2.jpg" title="First meeting - idea brainstorming"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img2.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img3.jpg" title="We think of a project helping the kids with education information"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img3.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img4.jpg" title="Drawing first business model canvas"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img4.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img5.jpg" title="Try to concrete the business idea"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img5.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img6.jpg" title="And here it is..."><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img6.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>                
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img10.jpg" title="Prepare for the first workshop"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img10.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img11.jpg" title="We organize the first workshop of making artbot in Ronnaskolan"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img11.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img12.jpg" title="With a class of 20 student at the age of 15"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img12.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div> 
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img13.jpg" title="The workshop was a success. The kids really enjoyed it"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img13.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img20.jpg" title="We also attended the Makerspace at Kista Library"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img20.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img21.jpg" title="Introducing the Inicio Bot"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img21.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img22.jpg" title="The Inicio Team"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img22.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img30.jpg" title="Team Inicio made the final presentation of BizDevLab course (photo: KTH Business Development Lab 2015 Facebook group)"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img30.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img31.jpg" title="One of our filming sessions"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img31.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img40.jpg" title="Team Inicio joined the Maker workshop in Digital Art Center - Kista"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img40.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img41.jpg" title="Here, we created"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img41.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img42.jpg" title="Learned from experienced makerspace organizers"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img42.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img43.jpg" title="But did not forget to interview people about our introduction video"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img43.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="nicdark_margin100 size100">
+                        <a href="img/portfolio/img44.jpg" title="What a coincidence, Inicio logo has similarities with EIT ICT Labs Idea Challenge"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/thumb/img44.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="nicdark_space40"></div>        
+        <div class="grid grid_12">
             <h2 class="subtitle greydark">AND VIDEOS</h2>
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
             <div class="nicdark_space10"></div>
-        </div>             
-        <div class="grid grid_8">         
-            <div class="nicdark_bg_grey nicdark_radius nicdark_shadow" style="padding: 20px">
-                <div class="nicdark_mpopup_gallery">
-                    <div class="nicdark_margin100 size100">
-                        <a href="img/portfolio/img1.jpg" title="First meeting - idea brainstorming"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/img1.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    </div>
-                    <div class="nicdark_margin100 size100">
-                        <a href="img/portfolio/img2.jpg" title="First meeting - idea brainstorming"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/img2.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    </div>
-                    <div class="nicdark_margin100 size100">
-                        <a href="img/portfolio/img3.jpg" title="We think of a project helping the kids with education information"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/img3.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    </div>
-                    <div class="nicdark_margin100 size100">
-                        <a href="img/portfolio/img4.jpg" title="Drawing first business model canvas"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/img4.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    </div>
-                    <div class="nicdark_margin100 size100">
-                        <a href="img/portfolio/img5.jpg" title="Try to concrete the business idea"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/img5.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    </div>
-                    <div class="nicdark_margin100 size100">
-                        <a href="img/portfolio/img6.jpg" title="And here it is..."><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/img6.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    </div>                
-                </div>
-            </div>
-        </div>        
-        <div class="grid grid_4">
+        </div>    
+        <div class="grid grid_12">
             <div class="nicdark_bg_grey nicdark_radius nicdark_shadow" style="padding: 20px">
                 <div class="nicdark_mpopup_gallery">            
                     <div class="nicdark_margin100 size100">
                         <a href="https://www.youtube.com/watch?v=E4LULoaqxUE" class="mfp-iframe" style="outline: none;" title="Our short introduction">
-                            <img src="img/play.png" style="margin-left: -62px; height: 100px; " class="nicdark_radius nicdark_opacity"/>
+                            <img src="img/play_thumb.png" style="height: 100px; " class="nicdark_radius nicdark_opacity"/>
                         </a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="nicdark_margin100 size100">
-                        <a href="img/footer/img2.jpg" title="IMAGE EXAMPLE"><img alt="" class="nicdark_radius nicdark_opacity" src="img/footer/img2.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=cn7MJVfe_ns" class="mfp-iframe" style="outline: none;" title="Our story">
+                            <img src="img/storythumb.png" style=" height: 100px; " class="nicdark_radius nicdark_opacity"/>
+                        </a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>                    
                 </div>
             </div>
@@ -206,7 +258,7 @@
 
         <div class="nicdark_space40"></div>        
         <div class="grid grid_12">
-            <h2 class="subtitle greydark">PEOPLE WE MET</h2>
+            <h2 class="subtitle greydark">SPECIAL THANKS TO</h2>
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
             <div class="nicdark_space10"></div>
@@ -215,22 +267,22 @@
             <div class="nicdark_bg_grey nicdark_radius nicdark_shadow" style="padding: 20px">
                 <div class="nicdark_mpopup_gallery">
                     <div class="nicdark_margin100 size100">
-                        <a href="img/footer/img1.jpg" title=""><img alt="" class="nicdark_radius nicdark_opacity" src="img/footer/img1.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/thanks/mark.jpg" title="Mark Smith - Professor at KTH"><img alt="" class="nicdark_radius nicdark_opacity" src="img/thanks/mark.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="nicdark_margin100 size100">
-                        <a href="img/footer/img2.jpg" title="IMAGE EXAMPLE"><img alt="" class="nicdark_radius nicdark_opacity" src="img/footer/img2.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/thanks/carl.jpg" title="Carl Bärstad - Lead instigator at Kids Hack Day"><img alt="" class="nicdark_radius nicdark_opacity" src="img/thanks/carl.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="nicdark_margin100 size100">
-                        <a href="img/footer/img3.jpg" title="IMAGE EXAMPLE"><img alt="" class="nicdark_radius nicdark_opacity" src="img/footer/img3.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/thanks/geraldine.jpg" title="Geraldine Illanes Rivera - Teacher at Ronnaskolan"><img alt="" class="nicdark_radius nicdark_opacity" src="img/thanks/geraldine.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="nicdark_margin100 size100">
-                        <a href="img/footer/img4.jpg" title="IMAGE EXAMPLE"><img alt="" class="nicdark_radius nicdark_opacity" src="img/footer/img4.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/portfolio/img13.jpg" title="Ronnaskolan Students"><img alt="" class="nicdark_radius nicdark_opacity" src="img/portfolio/img13.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="nicdark_margin100 size100">
-                        <a href="img/footer/img5.jpg" title="IMAGE EXAMPLE"><img alt="" class="nicdark_radius nicdark_opacity" src="img/footer/img5.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/thanks/terrence.jpg" title="Terrence Brown - BizDevLab2015 Instructor"><img alt="" class="nicdark_radius nicdark_opacity" src="img/thanks/terrence.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="nicdark_margin100 size100">
-                        <a href="img/footer/img6.jpg" title="IMAGE EXAMPLE"><img alt="" class="nicdark_radius nicdark_opacity" src="img/footer/img6.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="img/thanks/serdar.jpg" title="Serdar Temiz - BizDevLab2015 Instructor"><img alt="" class="nicdark_radius nicdark_opacity" src="img/thanks/serdar.jpg" style="height: 100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                 </div>
             </div>
@@ -253,31 +305,31 @@
                 <a href="http://books.google.com/books/about/Managing_the_Nonprofit_Organization.html?id=69f6ZdmAdz8C" class="nicdark_press nicdark_btn nicdark_bg_orange small nicdark_shadow nicdark_radius white">Peter Drucker: Managing the Nonprofit Organization</a> -->
                 <ul class="nicdark_list border">
                     <li class="nicdark_border_grey">
-                        <p>Reason for study drop out <a href="http://scb.se/en_/Finding-statistics/Statistics-by-subject-area/Education-and-research/Education-of-the-population/Youths-without-completed-upper-secondary-school-education/Aktuell-pong/2007A01/Reasons-for-study-drop-out/" class="nicdark_press nicdark_btn nicdark_bg_bluedark extrasmall nicdark_radius nicdark_shadow white right">Link</a></p> 
+                        <p>Reason for study drop out <a target="_blank" href="http://scb.se/en_/Finding-statistics/Statistics-by-subject-area/Education-and-research/Education-of-the-population/Youths-without-completed-upper-secondary-school-education/Aktuell-pong/2007A01/Reasons-for-study-drop-out/" class="nicdark_press nicdark_btn nicdark_bg_bluedark extrasmall nicdark_radius nicdark_shadow white right">Link</a></p> 
                         <div class="nicdark_space15"></div>
                     </li>
 
                     <li class="nicdark_border_grey">
                         <div class="nicdark_space15"></div>
-                        <p>Percentage of students that finish high school <a href="http://skl.se/skolakulturfritid/skolaforskola/sklssatsningarutvecklaskolan/pluginfarregymnasieavhopp.2132.html" class="nicdark_press nicdark_btn nicdark_bg_blue extrasmall nicdark_radius nicdark_shadow white right">Link</a></p> 
+                        <p>Percentage of students that finish high school <a target="_blank" href="http://skl.se/skolakulturfritid/skolaforskola/sklssatsningarutvecklaskolan/pluginfarregymnasieavhopp.2132.html" class="nicdark_press nicdark_btn nicdark_bg_blue extrasmall nicdark_radius nicdark_shadow white right">Link</a></p> 
                         <div class="nicdark_space15"></div>
                     </li>
 
                     <li class="nicdark_border_grey">
                         <div class="nicdark_space15"></div>
-                        <p>Information about the 18 upper secondary school programs <a href="http://www.skolverket.se/om-skolverket/andra-sprak-och-lattlast/in-english/the-swedish-education-system/upper-secondary-school/about" class="nicdark_press nicdark_btn nicdark_bg_bluedark extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>   
+                        <p>Information about the 18 upper secondary school programs <a target="_blank" href="http://www.skolverket.se/om-skolverket/andra-sprak-och-lattlast/in-english/the-swedish-education-system/upper-secondary-school/about" class="nicdark_press nicdark_btn nicdark_bg_bluedark extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>   
                         <div class="nicdark_space15"></div>
                     </li>
                         
                     <li class="nicdark_border_grey">
                         <div class="nicdark_space15"></div>
-                        <p>Education in Sweden <a href="https://sweden.se/society/education-in-sweden/" class="nicdark_press nicdark_btn nicdark_bg_blue extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>   
+                        <p>Education in Sweden <a target="_blank" href="https://sweden.se/society/education-in-sweden/" class="nicdark_press nicdark_btn nicdark_bg_blue extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>   
                         <div class="nicdark_space15"></div>
                     </li>
 
                     <li class="nicdark_border_grey">
                         <div class="nicdark_space15"></div>
-                        <p>Information about changes to upper secondary school and the requirements <a href="http://www.government.se/sb/d/10485" class="nicdark_press nicdark_btn nicdark_bg_bluedark extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>                            
+                        <p>Information about changes to upper secondary school and the requirements <a target="_blank" href="http://www.government.se/sb/d/10485" class="nicdark_press nicdark_btn nicdark_bg_bluedark extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>                            
                         <div class="nicdark_space15"></div>
                     </li>
 
@@ -289,25 +341,25 @@
 
                     <li class="nicdark_border_grey">
                         <div class="nicdark_space15"></div>
-                        <p>World Development Indicators - Sweden <a href="http://data.worldbank.org/country/sweden" class="nicdark_btn nicdark_bg_bluedark extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>    
+                        <p>World Development Indicators - Sweden <a target="_blank" href="http://data.worldbank.org/country/sweden" class="nicdark_btn nicdark_bg_bluedark extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>    
                         <div class="nicdark_space15"></div>
                     </li>
 
                     <li class="nicdark_border_grey">
                         <div class="nicdark_space15"></div>
-                        <p>Education, Work, Guidance in Sweden <a href="http://www.dokumaten.se/Pubs/0d838e84-fe4e-4a20-b8de-5ea851f7fbd3/education-work-guidance-in-sweden.pdf" class="nicdark_btn nicdark_bg_blue extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>    
+                        <p>Education, Work, Guidance in Sweden <a target="_blank" href="http://www.dokumaten.se/Pubs/0d838e84-fe4e-4a20-b8de-5ea851f7fbd3/education-work-guidance-in-sweden.pdf" class="nicdark_btn nicdark_bg_blue extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>    
                         <div class="nicdark_space15"></div>
                     </li>
 
                     <li class="nicdark_border_grey">
                         <div class="nicdark_space15"></div>
-                        <p>Creating a Classroom Makerspace <a href="http://ehm.sagepub.com/content/93/1/25.full.pdf+html" class="nicdark_btn nicdark_bg_bluedark extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>    
+                        <p>Creating a Classroom Makerspace <a target="_blank" href="http://ehm.sagepub.com/content/93/1/25.full.pdf+html" class="nicdark_btn nicdark_bg_bluedark extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>    
                         <div class="nicdark_space15"></div>
                     </li>
 
                     <li class="nicdark_border_grey">
                         <div class="nicdark_space15"></div>
-                        <p>Ten Nonprofit Funding Models <a href="http://www.ssireview.org/articles/entry/ten_nonprofit_funding_models" class="nicdark_btn nicdark_bg_blue extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>    
+                        <p>Ten Nonprofit Funding Models <a target="_blank" href="http://www.ssireview.org/articles/entry/ten_nonprofit_funding_models" class="nicdark_btn nicdark_bg_blue extrasmall nicdark_radius nicdark_shadow white right">Link</a></p>    
                     </li>
                         
                 </ul>
@@ -493,7 +545,7 @@
         patterns: {
             youtube: {
                   index: 'youtube.com',
-                  src: 'http://www.youtube.com/embed/E4LULoaqxUE?autoplay=1' // URL that will be set as a source for iframe. 
+                  src: 'http://www.youtube.com/embed/cn7MJVfe_ns?autoplay=1' // URL that will be set as a source for iframe. 
                 },
             }   
         }

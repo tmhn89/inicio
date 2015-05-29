@@ -166,6 +166,16 @@ select.big { font-size: 17px; padding: 15px 10%; }
 .nicdark_parallaxx_img7 { background: url(../img/parallax/img7.jpg) 50% 0 fixed; background-size:cover; }
 .nicdark_parallaxx_img8 { background: url(../img/parallax/img8.jpg) 50% 0 fixed; background-size:cover; }
 
+.nicdark_parallaxx_imgteam { background: url(../img/portfolio/img22.jpg) 50% -130px fixed; background-size:cover; }
+.screen1920 { display: none; }
+
+@media screen and (min-width: 1600px) {
+    .nicdark_parallaxx_imgteam {
+        background: url(../img/portfolio/img22.jpg) 50% -200px fixed; background-size:cover;
+    }
+    .screen1920 { display: block; }
+}
+
 .nicdark_parallaxx_img-teachers-1 { background: url(../img/parallax/img-teachers-1.jpg) 50% 0 fixed; background-size:cover; }
 .nicdark_parallaxx_img-single-teacher-1 { background: url(../img/parallax/img-single-teacher-1.jpg) 50% 0 fixed; background-size:cover; }
 .nicdark_parallaxx_img-single-teacher-2 { background: url(../img/parallax/img-single-teacher-2.jpg) 50% 0 fixed; background-size:cover; }
@@ -219,3 +229,13 @@ select.big { font-size: 17px; padding: 15px 10%; }
     margin: 4px 10px 0px 10px;
     vertical-align: bottom;
 }*/
+.biglink {
+    padding: 20px!important;
+    vertical-align: middle;
+    margin: 32px;
+}
+.biglink i {
+    font-size: 80px;
+    display: block;
+    margin: 10px;
+}

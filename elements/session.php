@@ -9,6 +9,9 @@
             $_SESSION['supervisor'] = $_GET['supervisor'];
         }
     }
+    if(isset($_GET['auth'])) {
+        $_SESSION['auth'] = $_GET['auth'];
+    }
     if(isset($_GET['logout'])) {
     	session_unset();
         session_destroy();
